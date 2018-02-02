@@ -1,0 +1,386 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="alternate" type="application/rss+xml" title="大数据时代" href="https://jysperm.me/atom.xml"><link rel="stylesheet" href="/styles.css"><title>千万级小程序开发指南 | 大数据时代</title></head><body><div class="container"><div class="columns page-header"><h1>大数据时代</h1></div><div class="columns"><div class="navigation"><nav class="menus-main"><a href="/" class="favicon"><img alt="大数据时代" src="/favicon.png"></a><a href="/">首页</a></nav></div></div><div class="columns"><div class="block-body column three-fourths"><article><header><small class="right"><a target="_blank" href="null_posts%2F477778344.md">查看源代码</a></small><h1>千万级小程序开发指南</h1></header><div class="article-meta clearfix"><time class="left">2017-11-05</time><ul class="tags left"><li><a href="/categories/uncategorized/">uncategorized</a></li></ul><ul class="tags right"></ul></div><div class="markdown-body"><p># </p>
+<pre><code>“原价三万九千八，现在一套只要一万九千八。” 
+
+
+  这不是电视购物，它其实来自一场在广州举办的小程序展销会。
+
+
+
+  200多人的会场中，台上的人在卖力灌输一种理念——就像追随互联网每一次流量红利一样，企业以后必须做小程序，而且应该人手一个，尽早开发。台下坐着的多是来自传统领域的中小企业主，虽然对这个新生事物一片茫然，却不想错过这个机会，以免“追悔莫及”。
+
+
+
+  通常一场这样的展会后，组织活动的会销公司能拿下50张订单，平均一张卖到5万块。这是一群做外包开发生意的敏锐投机者，他们做出来的小程序由一个抢注的关键词和一套简单的模版构成，基本没什么技术门槛，可转手就能卖出去。
+
+
+
+  仅在广州一地，群应用创始人杨芳贤就知道十几家这类会销公司，他们的生意甚至已经铺设到二三线城市。“但他们是第一批靠小程序赚到钱的人。”
+
+
+
+  尽管微信在重点打击这类公司，可从另一个角度看，投机者的出现往往意味着一种产品形态开始衍生出巨大的开发需求和用户需求。稍微大点的公司愿意花三五十万开发小程序，小型的即使只出得起几万也要赶上这班车。这与当年蜂拥建站的场景十分相似。
+
+
+
+  这是个信号，小程序热了。
+
+
+
+  5月份，微信小程序平台上线接近半年后，圈子里开始出现一个个PV（页面浏览量）过千万的爆款神话。助眠音频小程序小睡眠的用户量已过千万，有声影集小年糕的用户量也突破了2000万。朋友印象的首个现象级小程序匿名聊聊，上线5个小时后吸纳了1700万用户。这家公司因为接连制造了匿名聊聊、朋友猜猜、走心聊聊、群印象几个爆款，成为圈里的爆款标杆。
+
+
+
+  “做一个火一个，PV都能上千万。”一位开发者不无羡慕地对36氪说。
+
+
+
+  朋友印象的联合创始人栗浩洋如今对百万级PV已经不以为然。每次开发出新的小程序，上线之前，他的团队内部都要以PV值来打赌，单日PV超过千万才被视作成功。
+
+
+
+  这让投资人对小程序的态度也发生了巨大转变，以今年7月为分界点，投资人从观望到抢占头部，开始密集出手。细分领域头部的小程序团队已经被风投搜罗了一圈，他们之间有不少共性：10人左右的团队，几百万天使投资，几个月内积累上千万用户量。
+
+
+
+  小年糕的团队完全符合以上特征，5月之前，创始人茹海波需要主动找融资，不断跟对方解释什么是小程序，而如今见面的发起方多是投资人。小睡眠的创始人邹邹最近几个月也见了七八家找上门来的投资者。
+
+
+
+  这还仅仅是个开始。快速变化中的规则让小程序开发者这一年的心情就像是坐过山车。环境看似变好了，没有答案的问题仍然很多：如何利用微信的生态红利？如何在成为爆款后持续地火下去？如何避免踩到微信的红线？
+
+
+
+  即便是这块江湖的缔造者微信，也依旧是在如履薄冰地前行。
+
+
+
+  千万级PV的诞生
+
+
+
+  2016年9月21日，微信开放了小程序内测申请。
+
+
+
+  当时还在聚美优品的戴雨森，次日听闻消息后立刻写了条note发到产品经理群里，大意是小程序一定要重视，未来可能会有一系列场景化的应用出现。他跟陈欧有过一番讨论，结论是“尽管小程序还有不能模糊搜索、不能发到群聊种种限制，万一它未来开放了，就会非常牛逼，腾讯不会自废武功。但如果现在不上，很可能以后就懵逼了。”
+
+
+
+  小程序的使命，在于弥补张小龙在服务号上没能实现的事——用微信生态直接提供服务。开发者都敏感的察觉到，这是继公众号之后最大的机会，在1月9日小程序上线后的半年内，它吸引了至少20万开发者投身其中。不过，起初很多人对它的前景并不看好。
+
+
+
+  小程序上线一周后，罗辑思维创始人罗振宇的一条微信引发了不小的讨论，“我们决定不做了。我们知道小程序是什么了。哈哈，但是不能说。”1月13日，得到plus小程序停止运营。
+
+
+
+  无论得到怎么做，起码茹海波等待这个时机已经很久了。
+
+
+
+  早在2013年，成了新晋父亲的他迷上给孩子拍照，决定做一款有声影集。当这个想法落地时，茹海波决定放弃App形态，以公众号为载体在微信生态里做服务工具。彼时公众号的前景尚且模糊，敢于All in微信做产品的开发者并多见。
+
+
+
+  他的判断是，2014年底的微信生态已经具备做一款重交互应用的基础条件，这有点像2005年前后，flash、浏览器和网页技术升级，引发客户端应用开始往网页迁移。2017年小程序的出现让微信块土壤更加成熟，他更是觉得微信的时代来了，“微信自带身份，使用微信接口连用户注册和登陆的环节都省去了，触达用户的门槛大幅降低。”
+
+
+
+  事实证明，基于微信的小程序的确给了小年糕公众号和App生态都不能给予的东西。小年糕主打的用户群年龄在50岁以上，他们显然不是对互联网或新生事物最敏感的群体，如果换做需要下载的App场景，拉新用户的难度会大得多。
+
+
+
+  2017年5月底，茹海波做了个实验，将小年糕与公众号绑定，公众号跟小程序之间的无缝导流，快速扩充了小年糕的用户群体。一个月之内，小年糕的用户量就从1000万涨到了2000万。
+
+
+
+  “每个新平台的发展都会重复一些历史规律。小程序就像当年微博和公众号一样，最早出现抓取价值红利的是一批类似的应用：做测试的、做恶搞的、写段子的、还有装逼类神器。”戴雨森告诉36氪。
+
+
+
+  作为工具的小年糕能迅速走热，因为切中了好友共享相册这个社交场景。而热得最快的，是那些强社交属性，又擅长制造传播效应的产品，比如匿名聊聊。这类产品在微信生态里引发的病毒式传播，是以往原生App场景里难以想象的。
+
+
+
+  匿名聊聊3月22日上线，5月18日更新到第五版时突然走热。这是一款分享在朋友圈，吸引好友匿名留言的应用，切中人们对他人私密猎奇的心理。栗浩洋当时并没打算大做推广，他把匿名聊聊发到了一个20人的微信群里，其中5个人转发了这款产品。5个小时后，栗浩洋看到后台的用户数量已经冲到1700万。
+
+
+
+  三个月后，同样的爆发出现在打赏小程序给赞身上。这是一款基于特定场景，生成并分享自己的赞赏小程序码，其他人可以直接扫码打赏的应用。从19点突然爆发传播到凌晨，给赞的小程序PV迅速突破百万。
+
+
+
+  这样的结果，大大出乎给赞CEO邓皆斌的意料。在那5个钟头里涌入的100万用户，源头其实来自一位初始用户的无心之举。当时一位投资人在一场创投峰会的微信群里分享了给赞，群里都是to B领域的创业者。很快，给赞就洗刷了互联网创投界的朋友圈。
+
+
+
+  邓皆斌事后分析，“微信生态的用户都有明显的圈层，产品想渗透到不同的圈层比较难，但在同一个圈层的用户很容易通过产品的传播覆盖到，一下子迸发。”
+
+
+
+  爆款让人眼红，自然地，也就越来越多人在互相打听，如何制造爆款？
+
+
+
+  36氪采访的多位创业者都认为，要利用微信的生态红利做一款能引爆的小程序，关键是让产品功能和社交链以及分享动作天然融合在一起。
+
+
+
+  很多人把朋友印象看作一个值得解读的案例。这家公司在半年内做了匿名聊聊、群印象、走心聊聊、穷爸爸和朋友猜猜五款小程序，其中匿名聊聊和通过电影猜好友品味的朋友猜猜都风靡一时。
+
+
+
+  “用户在社交里最重要的心态是炫耀和解决孤独感，所以在微信里获取流量的方式，是靠各种小道具去激发人的炫耀感和解决孤独感。”栗浩洋认为，炫耀、孤独感、侠义心和竞争心态构成了刺激用户传播的关键心理。
+
+
+
+  不过在微信生态内，爆款并不少见。2014年8月，一款名为“围住神经猫”的小游戏在朋友圈刷屏。上线48小时候PV就突破了1026万。一个月后，开发团队在此基础上，开发了一款名为“神经猫的日常”的App，叠加进更多玩法。但是在微信生态内，它的生命周期就此终止了。
+
+
+
+  “一种尴尬是，找到好的场景的小程序并不多，有的产品一夜之间就火了，但是它的用户很难沉淀出商业价值。”杨芳贤告诉36氪。
+
+
+
+  用完即走，爆款怎么沉淀用户？
+
+
+
+  每个开发者都需要回答的第二阶段问题是——如何在成为爆款后保持热度？如何把用户沉淀下来？
+
+
+
+  今年1月9日微信正式上线小程序后，最先进入的开发者收割了好奇心驱使进来的首批流量。助眠音频应用小睡眠上线首日的用户量是70万，走心聊聊更甚，上线一小时突破400万PV。
+
+
+
+  然而大喜过望的开发者并没有料到，此后迎来的是长达3个月的遇冷，以及微信的纠结和博弈。直至今年3月底，克制的微信并未开放模糊和关键词搜索、群分享等入口，对很多没有二次触发用户和社交传播属性的开发者而言，小程序真的成了用完即走，用户甚至再不回头。
+
+
+
+  事实上，那三个月，微信团队也很煎熬。在不太给小程序导流的2、3月份，微信发现小程序的数据急剧下降。忆年创始人黄衍博记得，忆年1月份上线第一天，一下子涌入2000多个用户，后来开始就往下掉，到春节时只剩100多个用户了。这是一款基于好友关系的共享相册小程序，通过引入高校里微信好友数在1000至1500以上的男神、女神，收获了种子用户，如今累计访问量已经达到3000万。
+
+
+
+  更焦虑的是工具属性的低频应用的开发者，此后几乎很少有量进来，可以保持稳定自然增长是少数。这说明，小程序生态在那3个月里并没有真正活起来。
+
+
+
+  微信频繁通过后台数据搜罗能自增长的团队。邹邹记得，微信小程序团队曾特意找她请教，为何在微信没有提供资源支持的几个月里小睡眠还能保持稳定的数据增长，微信作为平台应该开放些什么变现的门路，吸引开发者进来。
+
+
+
+  “小睡眠比较特殊的是，每个人多少会有一些睡眠困扰，这是一个高频刚需的场景。”这是邹邹的答案。
+
+
+
+  与原生App只在渠道上依赖应用商店不同，小程序在分发的动作、甚至功能的完整性上，都与微信开放的接口和入口息息相关。在小程序刚上线的几个月，尚不完善的基础设施也波及到了用户的产品体验。
+
+
+
+  如今打开小睡眠，音频可以连续播放半小时，但起初受微信框架的影响，音频每播放5分钟就会停止，需要重新开启，这种情况一直延续到小睡眠积攒下400万用户。“这对于一个失眠患者真的很崩溃，我都不知道我们的用户是怎么坚持下来的。”邹邹说。
+
+
+
+  当然，更被开发者看重的是流量。
+
+
+
+  创业者看待小程序的参照系，是培植出的咪蒙这类吸纳巨额流量的自媒体公众号。有了这个拔高期望值的先例，开发者对小程序的耐心反而不高。要匹配微信最重要的战略产品这个名头，小程序起初的政策显然还不够“刺激”。
+
+
+
+  “上半年小程序看上去非常无聊，就像个鸡肋，没有存在感。”那3个月，占据头部位置的是大众点评、摩拜这类本来就有品牌和APP的开发者。对于这类开发者而言，小程序多是源于占位心态一个新渠道，毕竟用户不是自己的，但多个流量来源也无妨。彼时栗浩洋觉得，市场期待的草根团队的成功抓住新的社交流量红利的故事，仅在市场中占了10%的席位。身边的大量开发者都暂停了项目。
+
+
+
+  实质性的转变发生在3月底，微信终于松口，开始给小程序增加引流途径，开放更多功能，甚至默许微信内虚拟物品购买来支持开发者做变现的尝试。
+
+
+
+  仅从3月27日至6月3日之间，小程序官方就公布了20多项技能和流量入口，包括附近的店入口、公众号关联小程序导流、扫二维码进入小程序等等。进入6月后，微信的“放权”力度进一步升级，针对小程序核心的群社交链条和变现场景。自此小程序的爆发点出现了。
+
+
+
+  6月9日，小程序开始支持自定义关键词搜索，开发者可以选取10个关键词，引导用户通过搜索进入自己的小程序；
+
+
+
+  7月底，微信在搜一搜中开放小程序关键词搜索；
+
+
+
+  8月初在微信群的聊天信息界面设置了新的小程序入口“群小程序”；
+
+
+
+  9月初试点针对附近的小程序的“LBS推广”，尝试在小程序生态内引入竞价排名的入口搜索机制；
+
+
+
+  10月份小睡眠重启了此前终止过的小程序内的付费购买功能。今年2月份小睡眠曾短暂尝试过付费项目，邹邹记得效果很好，“产品定价从1.99元、3.99元到6.99元不等，一天下来能有三四千收入。”但忌讳到微信的运营规则当时还禁止虚拟物品内购，这场试验只持续了短暂的一周。到了七八月份，邹邹突然发现，微信已经不抗拒小程序做这类变现尝试。
+
+
+
+  几条关键的流量通路打开后，开发者对小程序有了信心。36氪采访的多位小程序创业者均表示，用户数据自6月份后进入了快速增长阶段。千万级PV的爆款也在同一时期开始密集涌现。
+
+
+
+  根据小程序统计平台阿拉丁的估算，今年第三季度小程序的总体流量是第一季度的三倍。
+
+
+
+  不过开发者还想要更多。迄今为止，在微信开放的40多个入口和能力中，最被开发者关注的只有四五个：二维码、群聊、公众号、搜索。大量入口在开发者看来有些不痛不痒，眼下他们只盼着有一天微信会开放朋友圈分享，特别是那些产品功能就根植于分享的产品。
+
+
+
+  “有了开放朋友圈、收藏，用户才觉得我们这个产品功能做全了，要不就满足不了他们的需求。”小年糕CEO茹海波估算，减少朋友圈分享意味着砍掉至少一半流量来源。“比如120%传播率的产品，砍掉一半就只有60%的传播率，这是强衰减，难度得大多少？小程序起码应该跟App被同等对待，以前App的h5都可以分享朋友圈。”
+
+
+
+  这些开发者见识过微商兴起时朋友圈在引流上的高效率，由一个单点辐射整个朋友圈。当然，微信也见识过，只不过更令他们印象深刻的是小广告刷屏后的乌烟瘴气。也因此，微信对朋友圈的开放保留着最大程度的克制。
+
+
+
+  张小龙“即用即走”的说法，既是为小程序圈个定义，也是提前给了开发者引导和忠告。这意味着微信是冲着提供服务，而不是尽量延长用户在小程序里停留的时间。
+
+
+
+  行业内的数据也逐渐证明了他的话。
+
+
+
+  “小睡眠的留存一定是行业内前十名了，但我可以明确告诉你，它可能还不及App三分之一的量。”看似矛盾的另一组数据是，小睡眠的小程序上线半年后收割了700万用户量，比App（心潮减压）两年积累的用户还多。
+
+
+
+  这意味着，小程序跟App之间的差异远不止是两个流量渠道那么简单。小程序可以给你巨大的流量，但要把用户沉淀下来，远比原生App困难。
+
+
+
+  市场上不乏没看清小程序的打法，奔着挖微信流量就往里冲的创业者。当App获客成本越来越高，大批淘金者单纯地把小程序看作一个新开放的流量渠道。落败的实验激化了开发者对小程序的失望情绪。而这种矛盾的实质，是旧有的App流量逻辑和小程序流量逻辑在思维上的拧巴。
+
+
+
+  部分开发者寄希望于微信在压力下为旧有的流量逻辑妥协。然而他们算错了一件事，游戏规则的制定者永远是开辟江湖的人。很快，胳膊和大腿谁能赢就显现出来了。
+
+
+
+  铁腕下的危机感与微信的心思
+
+
+
+  匿名聊聊上线后，栗浩洋发了条士气高涨的朋友圈，“它是我们向小程序扔出的一个问路的小石头，真正的生化武器和核弹还在后面，就怕微信都不敢接招要封了我们。”这条朋友圈的时间标记是2017年5月18日。
+
+
+
+  当天深夜，微信果真以“诱导分享”为由，封杀了这款1700PV的小程序。
+
+
+
+  事后接受媒体采访时，栗浩洋用“绝望”形容当时的心情。
+
+
+
+  早在小程序还未出现时，朋友印象做的各种H5爆款曾经被微信封杀过20多次，直到后来拿到腾讯投资，情况才有所好转。
+
+
+
+  封号是开发者最大的梦魇。每个月，黄衍博都会跟微信内部的朋友聊聊，打听下最近查什么号严，又要封什么了，好相应准备避免撞上枪口。涉黄、诱导分享、扰乱秩序的图片，目前忆年都有机器识别并在平台上屏蔽。
+
+
+
+  另一层逐渐滋长的危机感在于，开发者担心，如今作为裁判的微信平台，亲自下场和几十万开发者一起踢球。
+
+
+
+  一位群相册创业者从微信内部听说，微信官方打算在每个垂直市场都亲自做些小程序，目的是看看小程序的各个行业都什么样。他对这个说法将信将疑，如果微信官方的小程序做起来了，那将是细分行业最大的竞争者。
+
+
+
+  “那他们就自己玩吧，还哪有开发者愿意跟他们一起玩？”他不无担忧，但也做好了应战的准备。“先拼流量，一旦用户把照片存储进来，就很难转移。微信有获取流量的入口，但是没有流量集中地。”
+
+
+
+  没有人知道微信亲自做小程序实验的选择标的和边界。不过可以预测的是，越贴近基础设施功能和“大”生意的开发者，离红线的距离越近，就比如支付这类在微信眼中太过重要的领域。
+
+
+
+  赞赏小程序给赞上线时，微信公众号的打赏正因与苹果僵持不下，关闭了赞赏功能。但打赏对公众号媒体而言又是刚需，切中这个要点，又连带了好友圈求打赏的玩法。给赞的走热，正应了天时地利人和。
+
+
+
+  邓皆斌把给赞做的生意定义为“非支付交易”，“我们想做的事情并不是新媒体赞赏，而是场景化的赞赏服务商。我们会通过产品去构建很多场景，引导用户赞赏，完成美好情感的表达，比如节假日可以跟朋友做情感互动的赞赏码，艺术展作品的赞赏码，餐饮酒店等服务场景的服务员赞赏码……”
+
+
+
+  当时的给赞或许没料到，今年10月，微信就在IOS 6.5.19版本上放出了新功能，让打赏类小程序陷入尴尬的处境。
+
+
+
+  微信赞赏的功能，是可以生成自己的赞赏码，接受用户打赏。微信接受36氪采访时表示：赞赏码主要应用于个人收款场景，有收取赞赏、小费等需求的用户。比如餐饮服务员、演出展览作者，可以开启赞赏码功能并设置赞赏金额和引导语，既可在线下场景中出示赞赏码，由赞赏者扫码完成支付。
+
+
+
+  事实上，赞赏码的设计初衷就是服务线下的，这其实正切中微信最大的心结——抓取线下流量。
+
+
+
+  在2016年度财报中，腾讯是这样提及小程序的：“微信于2017年1月推出小程序，相信未来将有助于我们在“低频次使用场景”中提供更广泛更深入的服务，连接更多的线下服务与线上用戶，以及让用户有更多的途径触达及体验类同手机应用所提供的功能以提高手机应用的下载转化率。”
+
+
+
+  值得注意的，是连接线下服务与用户。根据易观智库发布的2017年第一季度《中国第三方支付移动支付市场季度监测报告》，中国第三方移动支付市场交易规模达到188091亿，其中支付宝占比53.7%，腾讯系的微信支付和财付通，占比为39.51%。
+
+
+
+  与支付宝进入胶着战后，线上流量的增长也已放缓，微信支付的希望是靠小程序撬动来自线下业务与线上近10亿月活的交易。从开放“附近的店”到放出“门店小程序”，微信出台的功能框架明显侧重激发线下零售开发者的能力。
+
+
+
+  一位接近微信团队的人士对36氪评价：“腾讯是一支业务很强的团队，有非常有创意的点子和很有战略性的产品，但这批人其实不懂to B业务，不了解商家需求和市场到底什么样，所以推小程序的过程并不顺利。”
+
+
+
+  市场的过高期待值，和小程序对腾讯的重要意义，给微信团队带来不小压力。一周两次更新开放能力，外加马化腾和张小龙的多次站台背书……史无前例的待遇背后，微信正焦灼地寻找为小程序打开局面的各种方法。
+
+
+
+  “他们的痛苦在于骑虎难下，”上述接近微信的人士评价，毕竟这是件只能成功不能失败的产品。因为如果失败，“腾讯就只是腾讯，微信就只是微信，要触到天花板了。”
+
+
+
+  新媒体运营从业者直接感受着微信的危机感。
+
+
+
+  根据第三方数据平台侯斯特发布的报告显示，今年一季度微信公众号图文发送的文章总数是29万篇，推送用户量151亿人次。但平均打开率只有4.63%，尚不足5%，这相对于2016年的10%可谓腰斩。
+
+
+
+  微信需要小程序为后劲不足的公众号续命。 看到这个趋势后，小程序开发平台飞燕开始做基于公众号的小程序工具，创始人张翔说，“公众号做了5年已经非常成熟了。但很多公众号吸纳了大量粉丝后存在很大的变现难题，或是粉丝不活跃沉淀不下来。”
+
+
+
+  以往公众号为微信在流量上打开了局面，但延展到变现环节却始终没实现闭环。 7月份开放了在公众号后台编辑可以插播小程序广告卡的功能，可以替代此前公众号文章中的图片软广，点击后一步跳转到小程序形式的商品购买界面。有开发者告诉36氪，小程序广告的打开率是原先图片广告的十倍。
+
+
+
+  微信看到了小程序补足微信生态，撬动商业化的巨大空间。这也是为什么腾讯必须把小程序做起来。
+
+
+
+  而开发者忧虑的根源，则源于小程序游戏规则的不确定性。微信的每一个实验动作，都牵一发而动全身，潜伏着努力一朝付诸东流的隐忧。
+
+
+
+  那些没有App，也不打算做App的小程序开发者，处境尤为尴尬。攥着2000万用户，茹海波依旧并无法判断未来的小程序会走向何方。“微信是生态的主控者，开发者只能跟随，或者放弃。”
+
+
+
+  对于有了身价的爆款而言，小程序已经从试水升级为豪赌。风险与机遇并存。
+
+
+
+  无论如何，这至少说明如今的小程序已不是一潭死水。
+</code></pre></div></article></div><div class="block-sidebar column one-fourth"><div class="widget tags"></div><div class="widget archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">17</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">28</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a><span class="archive-list-count">24</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">17</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a><span class="archive-list-count">54</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">27</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">15</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a><span class="archive-list-count">73</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a><span class="archive-list-count">40</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a><span class="archive-list-count">254</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a><span class="archive-list-count">27</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a><span class="archive-list-count">64</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">October 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a><span class="archive-list-count">77</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">106</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a><span class="archive-list-count">48</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">308</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">23</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">51</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">25</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">106</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">39</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a><span class="archive-list-count">25</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">55</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a><span class="archive-list-count">18</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a><span class="archive-list-count">46</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">37</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">50</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">104</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">52</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">June 2013</a><span class="archive-list-count">39</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a><span class="archive-list-count">79</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a><span class="archive-list-count">23</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">March 2013</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a><span class="archive-list-count">19</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a><span class="archive-list-count">19</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/09/">September 2012</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/08/">August 2012</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/07/">July 2012</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li></ul></div><div class="widget text-content"><p>该博客使用基于 &nbsp;<a href="http://hexo.io">Hexo</a>&nbsp; 的 &nbsp;<a href="https://github.com/jysperm/hexo-theme-simpleblock">simpleblock</a>&nbsp; 主题。博客内容使用 &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn">CC BY-NC-SA 3.0</a>&nbsp; 授权发布。最后生成于 2018-02-02.</p></div></div></div></div></body></html>

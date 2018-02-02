@@ -1,0 +1,84 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="alternate" type="application/rss+xml" title="大数据时代" href="https://jysperm.me/atom.xml"><link rel="stylesheet" href="/styles.css"><title>从错误中汲取让产品成功的经验 | 大数据时代</title></head><body><div class="container"><div class="columns page-header"><h1>大数据时代</h1></div><div class="columns"><div class="navigation"><nav class="menus-main"><a href="/" class="favicon"><img alt="大数据时代" src="/favicon.png"></a><a href="/">首页</a></nav></div></div><div class="columns"><div class="block-body column three-fourths"><article><header><small class="right"><a target="_blank" href="null_posts%2F1978524288.md">查看源代码</a></small><h1>从错误中汲取让产品成功的经验</h1></header><div class="article-meta clearfix"><time class="left">2013-03-14</time><ul class="tags left"><li><a href="/categories/uncategorized/">uncategorized</a></li></ul><ul class="tags right"></ul></div><div class="markdown-body"><p>Buffer是一款帮助用户在Twitter、Facebook等平台上更高效的发布内容的应用，到目前已经拥有超过50万的用户。在两年前刚刚开始打造这个产品的时候，开发人员就已经做好了充分的思想准备去面对各种挑战，包括设计开发过程中会遇到的障碍以及可能犯的错误。</p>
+<p>&nbsp;</p>
+<p>在项目当中犯错是在所难免的，只要能够从中学到一些东西，这些错误就能引导我们向正确的方向前进。从某种程度上讲，将产品一点点推向成功的也许正是一路上所犯下的那些错误。</p>
+<p>以下内容，以作者为第一人称进行编译：</p>
+<h2 id="重要的设计原则"><a href="#重要的设计原则" class="headerlink" title="重要的设计原则"></a>重要的设计原则</h2><p>在开始讨论我们从错误当中学习到的那些经验之前，我想先来聊聊我们的一个重要设计原则：</p>
+<ul>
+<li>先验证，再开发。</li>
+</ul>
+<p>接下来具体说说是怎么回事。</p>
+<p>我们打造Buffer的初衷是创建一种“聪明”的方式，让用户可以更高效的在Twitter等社交网络平台当中同步发布内容。这个想法刚刚冒出来的时候，我们的创始人Joel Gascoigne立刻开始着手写代码，而不是首先去验证想法。在写了几分钟之后，他才意识到这可能不是正确的方式。</p>
+<p>接下来，Joel为这个目前还不存在的产品创建了一个介绍页面，并把链接放在Twitter上进行传播。对这个想法真正有兴趣的潜在用户会通过链接来到介绍页面；在他们点击了“服务方案及价格”按钮之后，接下来的一个页面会告诉他们，产品目前还没有完工，请留下邮箱以便在产品上线后的第一时间获得通知。</p>
+<p>从这件事情出发，我们在接下来的历程当中逐渐归纳出了三点最重要的设计原则及经验：</p>
+<ol>
+<li>整个产品或某个新功能的第一版要尽量保持最小化。</li>
+<li>做好心理准备：项目很可能是长期的，而且会涉及到多次转型。</li>
+<li>任何新的主意和想法都需要首先进行验证。</li>
+</ol>
+<p>聊过了总体上的经验心得，接下来，我将通过一些实际的例子向大家更加具体的介绍一下我们在项目当中所学到的那些东西。</p>
+<h2 id="第一课：流程应该聚焦在“用户保留”而不是收益上"><a href="#第一课：流程应该聚焦在“用户保留”而不是收益上" class="headerlink" title="第一课：流程应该聚焦在“用户保留”而不是收益上"></a>第一课：流程应该聚焦在“用户保留”而不是收益上</h2><p>关于用户体验，我们在项目早期学到的重要一课，就是要将流程聚焦在“用户保留(user-retention)”而不是产生收益上。</p>
+<p>我们是怎样了解到这一点的呢？不妨先来看看Buffer上线之后最初版本的注册申请流程：</p>
+<ol>
+<li>用户在介绍页面点击了“服务方案及价格”按钮之后，会被引领到一个介绍具体服务类型的页面。</li>
+<li>在这个页面里，用户需要在免费或付费方案中做出选择。</li>
+<li>选择了服务类型之后，用户需要填写用户名、邮箱地址等信息，完成注册。</li>
+</ol>
+<p>当时，确实有不少用户会选择付费方案，这看上完全去不是坏事。不过我们很快发现，这类会在实际使用产品之前就选择付费方案的用户的流失率是非常大的。其中一部分人在付费之后几乎不怎么使用产品，有些甚至还退订了付费服务。</p>
+<p>于是我们试着修改了这一流程，不在这里要求用户进行方案选择；我们对自己说：“还是首先让用户自己去体验产品并判断Buffer带给他们的价值吧，在正式使用之后再鼓励他们根据需求升级到相应的付费版本好了。”</p>
+<p>修改后的流程就是大家现在可以在Buffer的网站当中看到的：用户可以通过他们的第三方账号直接登录并体验免费方案中的所有功能，完全无缝的即刻开始使用产品。</p>
+<p>相关流程的重新设计产生了以下两方面的结果：</p>
+<ol>
+<li>有更多的人开始使用我们的产品，因为我们去掉了服务方案选择页面及相关的注册流程，减少了不必要的障碍。</li>
+<li>有更多的人升级到了付费方案，因为他们可以很直接很容易的进入使用状态，发现其中的价值，决定与我们并肩通行。</li>
+</ol>
+<p>后来，我们对产品做了很多改进，包括增加了更多的免费功能，另外产品的核心功能始终是免费的。只有确信用户已经体验到足够多的价值，我们才会向他们推荐付费的升级方案。</p>
+<p>聚焦于用户保留，这是我们学到的重要一课。</p>
+<p>相关阅读：</p>
+<ul>
+<li>渐进式吸引 – 让潜在用户 在实践中了解产品、完成转化</li>
+<li>“即将上线”页面的设计原则与创意要素</li>
+</ul>
+<h2 id="第二课：社会化登录比传统Email登录更有效"><a href="#第二课：社会化登录比传统Email登录更有效" class="headerlink" title="第二课：社会化登录比传统Email登录更有效"></a>第二课：社会化登录比传统Email登录更有效</h2><p>为了提升主页当中的转化率，我们做了很多尝试，并进行了一系列的A/B测试，结果都不是很理想。最终，我们决定尝试社会化登录的方式，即允许用户通过他们的Twitter、Facebook或LinkedIn的账户来直接登录。</p>
+<p>毕竟，Buffer这款产品就是为了方便用户同步在Twitter、Facebook和LinkedIn当中发布内容用的，所以这样做也非常符合逻辑，用户可以通过他们的相关账号直接使用Buffer，减少了不必要的麻烦。</p>
+<p>出于对比的目的，我们来看看Buffer在使用社会化登录之前所采用的传统注册方法：</p>
+<p>这一改变极大的推动了用户量的增长，转化率提升了将近50%，实际上在切换登录方式的当天，日增长数就由500变成了800的样子。</p>
+<h2 id="第三课：尽早验证每一个假设"><a href="#第三课：尽早验证每一个假设" class="headerlink" title="第三课：尽早验证每一个假设"></a>第三课：尽早验证每一个假设</h2><p>我们曾经有一个重新设计浏览器插件的主意，它最终失败的很惨。</p>
+<p>浏览器插件是整个Buffer产品的一个重要组成部分，它可以帮助用户直接将Web页面上的内容添加到自己的“buffer”当中并分享到社交平台，整体体验非常棒。</p>
+<p>所以很自然的，我们会将注意力放在浏览器插件上，希望尽可能的对其进行改进，实现一些更酷的点子。不过在改进的过程中，我们似乎又捡起了过去的一些坏习惯，犯了一些本该避免的错误。当时的步骤是这样的：</p>
+<ol>
+<li>我们识别出Buffer的浏览器插件中存在的一些问题，头脑风暴了想要改进的地方。</li>
+<li>接下来，我们花费了大量的时间与资源，重新设计并开发了全功能的新版本插件。</li>
+<li>完工之后的测试当中，我们发现新版本插件给用户带来了极大的困惑。</li>
+<li>最终我们决定放弃这个版本的插件。</li>
+</ol>
+<p>各位在下图当中看到的就是这个永远没有上线的失败作品：</p>
+<p>可以说，正是这次失利让我们将“尽早验证每一个假设”的原则深深的印在了脑海里，成为了今后的一种习惯。</p>
+<p>如今，我们要改进产品或是要实现一些新功能时，会通过以下步骤进行：</p>
+<ol>
+<li>识别已有问题，确定需要改进或新增的点。</li>
+<li>与现有用户进行沟通，了解他们是否在使用过程中也遇到了这些问题。</li>
+<li>想法得到初步验证后，快速制作线框稿或低保真可交互原型。</li>
+<li>再次与用户进行沟通，向他们展示原型，观察他们的交互行为。</li>
+<li>重复这样的过程，直到最终确定设计方案。</li>
+<li>持续追踪各种指标，保持与用户的沟通，验证新版产品的表现。</li>
+</ol>
+<p>相关阅读：</p>
+<ul>
+<li>精益创业 – 用户体验的新包装</li>
+<li>产品早期的原型设计与用户测试</li>
+</ul>
+<h2 id="第四课：清晰易懂的UI文案"><a href="#第四课：清晰易懂的UI文案" class="headerlink" title="第四课：清晰易懂的UI文案"></a>第四课：清晰易懂的UI文案</h2><p>这一点我考虑了很久：对于标题、按钮、提示信息等UI元素，要在条件允许的情况下尽可能使用清晰易懂的文案，而不是其他看似聪明却会给用户带来认知负担的形式。</p>
+<p>Intercom的Des Traynor在一篇文章中对这个问题进行了定义：</p>
+<blockquote>
+<p>你针对用户的实际需求打造了很棒的功能，却发现他们根本没在用它。很多时候，这是因为用户没有看到这个功能，或是虽然注意到，却不了解它是做什么的。</p>
+</blockquote>
+<p>这样的问题是我们在项目中时常会遇到的。举一个很具有代表性的例子：在Buffer中，你可以将自己在若干社交平台当中的账户整合起来，集中发布内容。譬如，你使用Twitter的账户登录后，有可能需要将Facebook以及LinkedIn的账户也添加进来，如下图所示：</p>
+<p>我们曾经认为，使用一个加号引导用户添加账户是一种非常聪明的做法。</p>
+<p>不过事实并非如此，我们不断收到用户的邮件，询问究竟怎样才能将他们的其他账户添加到Buffer当中。</p>
+<p>于是我们做了一些改进，例如使用了更大的加号图标，以及类似的一些小调整。不过最后也是最有效的解决方案却是非常简单的：直接使用“连接更多账户”的文案代替加号按钮，让信息的传达更清晰更有效。</p>
+<p>从这件事情当中，我们认识到，即使需要在外观形式上做出牺牲，也要选择对用户来说更清晰易懂而不是看上去更酷的解决方案。</p>
+<p>相关阅读：怎样通过UI辅助说明文字有效的提升用户体验</p>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>我们相信自己的公司以及Buffer这款产品仍然处于初期阶段，所以即使到现在，很多设计流程和方法也许仍然是具有试验性且有待验证的。</p>
+<p>对于我们来讲，之前的历程带给我们的最大启迪仍然是：不依赖于某个想法，而是要将每个新功能新设计方案都看做需要验证的假设。</p>
+<p>我们有计划去落实更多的想法，实现更多有意思的功能，但同时也做好了将其中大部分扔掉的准备。我们相信，从长期的角度来看，这样的思维方式可以帮助我们打造出用户真正需要的产品。</p>
+</div></article></div><div class="block-sidebar column one-fourth"><div class="widget tags"></div><div class="widget archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">17</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">28</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a><span class="archive-list-count">24</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a><span class="archive-list-count">17</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a><span class="archive-list-count">54</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a><span class="archive-list-count">27</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">15</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a><span class="archive-list-count">73</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a><span class="archive-list-count">40</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a><span class="archive-list-count">254</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a><span class="archive-list-count">27</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a><span class="archive-list-count">64</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">October 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a><span class="archive-list-count">77</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">106</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a><span class="archive-list-count">48</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a><span class="archive-list-count">308</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">23</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">February 2015</a><span class="archive-list-count">51</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">25</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">106</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a><span class="archive-list-count">39</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a><span class="archive-list-count">25</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a><span class="archive-list-count">55</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a><span class="archive-list-count">18</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a><span class="archive-list-count">46</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">March 2014</a><span class="archive-list-count">37</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">February 2014</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">January 2014</a><span class="archive-list-count">50</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">December 2013</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">October 2013</a><span class="archive-list-count">104</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">July 2013</a><span class="archive-list-count">52</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">June 2013</a><span class="archive-list-count">39</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">May 2013</a><span class="archive-list-count">79</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">April 2013</a><span class="archive-list-count">23</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">March 2013</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a><span class="archive-list-count">12</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a><span class="archive-list-count">19</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a><span class="archive-list-count">19</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/09/">September 2012</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/08/">August 2012</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/07/">July 2012</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a><span class="archive-list-count">1</span></li></ul></div><div class="widget text-content"><p>该博客使用基于 &nbsp;<a href="http://hexo.io">Hexo</a>&nbsp; 的 &nbsp;<a href="https://github.com/jysperm/hexo-theme-simpleblock">simpleblock</a>&nbsp; 主题。博客内容使用 &nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn">CC BY-NC-SA 3.0</a>&nbsp; 授权发布。最后生成于 2018-02-02.</p></div></div></div></div></body></html>
