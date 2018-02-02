@@ -1,0 +1,867 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="腾讯CDC是一个设计团队，做世界一流的互联网设计团队，为用户创造优质在线生活体验。CDC关注于互联网视觉设计、交互设计、用户研究、前端开发。" />
+<meta name="Keywords" content="cdc,blog,tencent design,tencent gui,tencent hci,tencent web" />
+<meta id="author" content="Tencent CDC Team" />
+<meta id="Copyright" content="Copyright 1998-2010 Tencent Inc. All Rights Reserved" />
+<meta name="verify-v1" content="eyIb7IlkT8vAK51fYxVlQPTG9xQWrF5dzXDyk6x7gMM=" />
+<meta property="qc:admins" content="3065336343645635646375" />
+<link rel="stylesheet" type="text/css" media="all" href="http://cdc.tencent.com/wp-content/themes/cdcblog2/css/global.css" />
+<title>腾讯CDC</title>
+<link rel="alternate" type="application/rss+xml" title="腾讯CDC RSS Feed" href="http://cdc.tencent.com/?feed=rss2" />
+<link rel="apple-touch-icon" href="http://cdc.tencent.com/apple-touch-icon.png" />
+<script type="text/javascript">
+var duoshuoQuery = {"short_name":"cdc","sso":{"login":"http:\/\/cdc.tencent.com\/wp-login.php?action=duoshuo_login","logout":"http:\/\/cdc.tencent.com\/wp-login.php?action=logout&_wpnonce=ac4959f08b"}};
+duoshuoQuery.sso.login += '&redirect_to=' + encodeURIComponent(window.location.href);
+duoshuoQuery.sso.logout += '&redirect_to=' + encodeURIComponent(window.location.href);
+</script>
+<script type="text/javascript" src="http://static.duoshuo.com/embed.js" charset="UTF-8" async="async"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cdc.tencent.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cdc.tencent.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+
+<style type="text/css">
+#glume{width:100%;position:absolute;overflow:hidden;z-index:2;}
+#glume .Limg{width:100%;height:399px;position:relative;cursor:pointer;}
+#glume .Limg li{width:100%;height:399px;position:absolute;cursor:pointer;}
+#glume .Nubbt{display:none;position:absolute;z-index:1;right:5px;bottom:3px;}
+#glume .Nubbt span{display:none;border:1px solid #45A06F;background:#fff;padding:1px 5px;margin:0 2px; font-style:normal;cursor:pointer;}
+#glume .Nubbt span.on{background:#47AA72;color:#fff;}
+#glume .Limg li.bg_1{background:rgb(22,126,65) url(http://cdc.tencent.com/wp-content/uploads/2013/06/QQtoy2.jpg) top center no-repeat;}
+#glume .Limg li.bg_2{background:rgb(19,129,215) url(http://cdc.tencent.com/wp-content/uploads/2013/06/guanjia.png) top center no-repeat;}
+#glume .Limg li.bg_3{background:#393939 url(http://cdc.tencent.com/wp-content/uploads/2011/09/2011_campushr_banner_02.jpg) top center no-repeat;}
+#glume .Limg li.bg_4{background:#354f0e url(http://cdc.tencent.com/wp-content/uploads/2011/09/2011_campushr_banner_04.jpg) top center no-repeat;}
+#glume .Limg li.bg_5{background:#5b1a3c url(http://cdc.tencent.com/wp-content/uploads/2011/09/2011_campushr_banner_05.jpg) top center no-repeat;}
+#glume .Limg li.bg_6{background:#8f6f18 url(http://cdc.tencent.com/wp-content/uploads/2011/09/2011_campushr_banner_06.jpg) top center no-repeat;}
+#glume .Limg li a{width:100%;height:340px;overflow:hidden;position:absolute;top:60px;left:0px;}
+</style>
+
+</head>
+<body>
+<style>#header1{margin-bottom:340px;}</style>
+<script type="text/javascript" src="http://pingjs.qq.com/ping.js"></script>
+<script type="text/javascript">
+  if(typeof(pgvMain) == 'function')
+  pgvMain("", {senseParam: "p"});
+</script>
+<script type="text/javascript">window.onerror=function(){return true;}</script><script type="text/javascript" src="http://cdc.tencent.com/data/js/microajax.js"></script>
+<script type="text/javascript">function cdcAjax(url, callbackFunction){return microAjax(url, callbackFunction);}</script>
+
+<!--跑马banner-->
+  <div id="glume">
+	<ul class="Limg">
+    <li class="bg_1"><a href="http://buy.qq.com/promote/2013/index_95.shtml" target="_blank">&nbsp;</a></li>
+    <li class="bg_2"><a href="http://guanjia.qq.com/" target="_blank">&nbsp;</a></li>
+<!--
+    <li class="bg_3"><a href="#" target="_blank">&nbsp;</a></li>
+    <li class="bg_4"><a href="#" target="_blank">&nbsp;</a></li>
+    <li class="bg_5"><a href="#" target="_blank">&nbsp;</a></li>
+    <li class="bg_6"><a href="#" target="_blank">&nbsp;</a></li>
+-->
+    
+    </ul>
+    <cite class="Nubbt">
+    <span class="on">1</span>
+    <span >2</span>
+    <span >3</span>
+    <span >4</span>
+    <span >5</span>
+    <span >6</span>
+    </cite>
+  </div>
+
+<script language=javascript type="text/javascript">
+(function(){
+    if(!Function.prototype.bind){
+        Function.prototype.bind = function(obj){
+            var owner = this,args = Array.prototype.slice.call(arguments),callobj = Array.prototype.shift.call(args);
+            return function(e){e=e||top.window.event||window.event;owner.apply(callobj,args.concat([e]));};
+        };
+    }
+})();
+var glume = function(id){
+    this.ctn = document.getElementById(id);
+    this.adLis = null;
+    this.btns = null;
+    this.animStep = 0.1;//动画速度0.1～0.9
+    this.switchSpeed = 5;//自动播放间隔(s)
+    this.defOpacity = 1;
+    this.tmpOpacity = 1;
+    this.crtIndex = 0;
+    this.crtLi = null;
+    this.adLength = 0;
+    this.timerAnim = null;
+    this.timerSwitch = null;
+    this.init();
+};
+glume.prototype = {
+    fnAnim:function(toIndex){
+        if(this.timerAnim){window.clearTimeout(this.timerAnim);}
+        if(this.tmpOpacity <= 0){
+            this.crtLi.style.opacity = this.tmpOpacity = this.defOpacity;
+            this.crtLi.style.filter = 'Alpha(Opacity=' + this.defOpacity*100 + ')';
+            this.crtLi.style.zIndex = 0;
+            this.crtIndex = toIndex;
+            return;
+        }
+        this.crtLi.style.opacity = this.tmpOpacity = this.tmpOpacity - this.animStep;
+        this.crtLi.style.filter = 'Alpha(Opacity=' + this.tmpOpacity*100 + ')';
+        this.timerAnim = window.setTimeout(this.fnAnim.bind(this,toIndex),50);
+    },
+    fnNextIndex:function(){
+        return (this.crtIndex >= this.adLength-1)?0:this.crtIndex+1;
+    },
+    fnSwitch:function(toIndex){
+        if(this.crtIndex==toIndex){return;}
+        this.crtLi = this.adLis[this.crtIndex];
+        for(var i=0;i<this.adLength;i++){
+            this.adLis[i].style.zIndex = 0;
+        }
+        this.crtLi.style.zIndex = 2;
+        this.adLis[toIndex].style.zIndex = 1;
+        for(var i=0;i<this.adLength;i++){
+            this.btns[i].className = '';
+        }
+        this.btns[toIndex].className = 'on'
+        this.fnAnim(toIndex);
+    },
+    fnAutoPlay:function(){
+        this.fnSwitch(this.fnNextIndex());
+    },
+    fnPlay:function(){
+        this.timerSwitch = window.setInterval(this.fnAutoPlay.bind(this),this.switchSpeed*1000);
+    },
+    fnStopPlay:function(){
+        window.clearTimeout(this.timerSwitch);
+    },
+    init:function(){
+        this.adLis = this.ctn.getElementsByTagName('li');
+        this.btns = this.ctn.getElementsByTagName('cite')[0].getElementsByTagName('span');
+        this.adLength = this.adLis.length;
+        for(var i=0,l=this.btns.length;i<l;i++){
+            with({i:i}){
+                this.btns[i].index = i;
+                this.btns[i].onclick = this.fnSwitch.bind(this,i);
+                this.btns[i].onclick = this.fnSwitch.bind(this,i);
+            }
+        }
+        this.adLis[this.crtIndex].style.zIndex = 2;
+        this.fnPlay();
+        this.ctn.onmouseover = this.fnStopPlay.bind(this);
+        this.ctn.onmouseout = this.fnPlay.bind(this);
+    }
+};
+var player1 = new glume('glume');
+</script>
+<!--跑马banner End-->
+
+
+<!--Header-->
+<div id="header1">
+<div id="top">
+<div id="nav">
+    <a onfocus="this.blur()" href="http://cdc.tencent.com" id="logo"><cite>腾讯CDC</cite></a>
+    <div id="menu">
+    	<ul>
+        <li id="on"><a onfocus="this.blur()" href="http://cdc.tencent.com">首页</a></li>
+        <li><a onfocus="this.blur()" href="http://cdc.tencent.com/?about">关于</a></li>
+        <li><a onfocus="this.blur()" href="http://cdc.tencent.com/?jobs">招聘</a></li/>
+        <li><a onfocus="this.blur()" href="http://cdc.tencent.com/?albums">相集</a></li>
+        <li><a onfocus="this.blur()" href="http://uid.cdc.tencent.com" target="_blank">UID 2.5</a></li/>
+        <li><a onfocus="this.blur()" href="http://cdc.tencent.com/?message">留言板</a></li>
+        <li id="rss"><a onfocus="this.blur()" href="http://cdc.tencent.com/?feed=rss2" class="rss" target="_blank"><cite>RSS</cite></a></li>
+		<li id="feed" onmouseover="javascript:share_postid=0;"><a onfocus="this.blur()" href="javascript:doShare('fav');" class="feed"><cite>分享</cite></a></li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+<!--Header End-->
+
+<!--分享到-->
+<div class="share_more" id="share_more" style="position:absolute;left:160px;top:442px;display:none;">
+<span></span>
+<p onmouseover="share_more_element.style.display='block';" onmouseout="share_more_element.style.display='none';">
+<a class="share">分享到...</a>
+<a class="favorite" href="javascript:doShare('fav');">收藏夹</a>
+<a class="facebook" href="javascript:doShare('qqt');">腾讯微博</a>
+<a class="baidu" href="javascript:doShare('qzone');">QQ空间</a>
+<a class="twitter" href="javascript:doShare('renren');">人人网</a>
+<a class="myspace" href="javascript:doShare('douban');">豆瓣</a>
+</p>
+</div>
+<script type="text/javascript">
+var share_more_element = null;
+var share_postid = -1;
+var postArray = [];
+function getPos(obj){
+	var pos = [];
+	pos[0] = obj.offsetLeft;//X
+	pos[1] = obj.offsetTop;//Y
+	while (obj = obj.offsetParent){
+		pos[0] += obj.offsetLeft;
+		pos[1] += obj.offsetTop;
+	}
+	return pos;
+}
+function share_more(postid, obj){
+	share_postid = postid;
+	var objPos = getPos(obj);
+	objPos[0]-=7;objPos[1]-=5;
+	if(share_more_element == null)share_more_element=document.getElementById("share_more");
+	share_more_element.style.left=objPos[0]+"px";
+	share_more_element.style.top=objPos[1]+"px";
+	share_more_element.style.display="block";
+}
+function doShare(stype){
+	stitle = postArray[share_postid][0];
+	surl = postArray[share_postid][1];
+	sdire = postArray[share_postid][2];
+	sbanner = postArray[share_postid][3];
+	
+	blogtitle = '腾讯CDC';
+	bloghome = 'http://cdc.tencent.com';
+	articletitle = stitle;
+	
+	stitle = blogtitle + ' - ' + stitle;
+	
+	switch(stype){
+		case "fav":
+			if (document.all){
+				window.external.addFavorite(surl,stitle);
+			}
+			else if (window.sidebar){
+				window.sidebar.addPanel(stitle,surl, "");
+			}
+			else{
+				alert("抱歉,您的浏览器不支持添加到收藏夹,换个浏览器试试?");
+			}
+			break;
+		case "qqt":
+			u=encodeURIComponent(surl);
+			t=encodeURIComponent('#CDC原创博文#：@腾讯CDC体验设计 - ' + articletitle);
+			b=encodeURIComponent(sbanner);
+			su=encodeURIComponent(bloghome);
+			window.open('http://v.t.qq.com/share/share.php?title='+t+'&url='+u+'&source=1000012&site='+su+'&pic='+b,'_blank');	
+			break;
+		case "qzone":
+			var p = {
+			url:surl,
+			desc:"我在腾讯#CDC#博客（http://cdc.tencent.com）阅读了这篇文章，觉得不错，分享给大家：）",
+			summary:sdire,
+			title:stitle,
+			site:'腾讯CDC博客 http://cdc.tencent.com',
+			pics:sbanner
+			};
+			var s = [];
+			for(var i in p){
+			s.push(i + '=' + encodeURIComponent(p[i]||''));
+			}
+			window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?'+s.join('&'));
+			break;
+		case "renren":
+			u=encodeURIComponent(surl);
+			t=encodeURIComponent(stitle);
+			window.open('http://share.renren.com/share/buttonshare.do?link='+u+'&title='+t+'source=&sourceUrl=','_blank');
+			break;
+		case "douban":
+			u=encodeURIComponent(surl);
+			t=encodeURIComponent(stitle);
+			window.open('http://www.douban.com/recommend/?url='+u+'&title='+t,'_blank');
+			break;		
+	}
+}
+</script>
+<script>postArray[0]=[];postArray[0][0]="腾讯CDC";postArray[0][1]="http://cdc.tencent.com";postArray[0][2]="腾讯公司用户研究与体验设计中心博客 http://cdc.tencent.com";postArray[0][3]="http://cdc.tencent.com/wp-content/uploads/cdc_logo.gif";</script><!--分享到 End-->
+<!--Container-->
+<div id="container">
+<!--Content-->
+<div id="content">
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=198" class="avatar"><img src="http://cdc.tencent.com/data/author_img/198-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/198-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7506">随本索源探讨Metro风格</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=198" target="_blank">echos</a> / <a href="http://cdc.tencent.com/?category_name=brand">品牌维生素</a>,<a href="http://cdc.tencent.com/?category_name=ui">视觉设计</a> / 2013.06.06</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7506#comments">30</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7506"><img src="http://cdc.tencent.com/wp-content/uploads/2013/06/BannerForBlog.jpg"/></a>
+    <div class="text"><p>　　虽然扁平化的设计在metro风格之前已经存在，但真正引起人们注意的，正是它的诞生。Metro风格是从Segoe字体开始的。Segoe是一款西文无衬线体，为微软公司诸多新产品中用户界面的字体。Segoe的设计灵感来自于Helvetica和瑞士国际主义平面设计，它的设计像是一种简单而又能准确传递信息的工具。没有多余的装饰和移动部件，Segoe是一种呈现清晰、准确和的新方式。
+...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:4,218</li>
+    <li class="like">喜爱:11</li>
+    <li class="share" onmouseover="share_more(7506,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7506" class="more">阅读全文</a>    </div>
+	<script>postArray[7506]=[];postArray[7506][0]="随本索源探讨Metro风格";postArray[7506][1]="http://cdc.tencent.com/?p=7506";postArray[7506][2]="Metro风格的起源自瑞士国际主义平面设计　　虽然扁平化的设计在metro风格之前已经存在，但真正引起人们注意的，正是它的诞生。Metro风格是从Segoe字体开始的。Segoe是一款西文无衬线体，为微软公司诸多新产品中用户界面的字体。Segoe的设计灵感来自于Helvetica和瑞士国际主义平面设计，它的设计像是一种简单而又能准确传递信息的工具。没有多余的装饰和移动部件，Segoe是一种呈现清晰、准确和的新方式。Segoe与Helvetica瑞士国际主义平面设计&nbsp;瑞士国际主义平面设计与Metro风格设计共性 　　由于metro风格是由瑞士国际平面主意设计发展而来，经过类比，惊讶地发现两者有惊人的相似之处：他们的设计目的均为单纯，易于识别。风格简单明确，传达功能准确，追求几何学式的严谨。采用非对称的版面组织方式。对齐方式使用左齐，右长短不一的对称方式使用方格网为设计基础。形成高度功能化，理性化的设计风格。使用无饰线体作为主要的设计字体。windows8启动界面瑞士国际主义平面设计&nbsp;从瑞士国际主义平面设计的局限性到metro风格界面的局限性　　正所谓针无两头利。瑞士国际主义平面设计的优点正正是他的缺点所在。 首先瑞士国际主义平面设计作品的要求必须是客观的非个人的设计。个体偏好、顾客的特殊要求、宣传的压力都应该漠视不顾。唯一的标准是视觉的力量与效果。过分的理性化与公式化导致了个人性化的过道泯灭。忽略了普罗大众对于情感化的需求。 其次瑞士国际主义平面设计形式为数字网格注重数学逻辑和理性思维缺乏感性的思想给设计者造成很大的局限。不利于思维的发散而且形成的版面过于死板、拘束缺少更为自由、更为个人化的特点。网格设计　　最后瑞士国际主义平面设计发展到美国后渐渐背离了设计先驱们的初衷。它渐渐变成了一种风格而不是一种动机成为了虚空的形式主义。　　 以史为镜,可以知兴替，根据瑞士国际主义平面设计的消亡可以得出关于metro界面的局限性。优秀win8设计　　1.个人情感主意的抹杀。不同与ios的拟物化情感化设计。Metro风格对于质感作了最大限度的抽象化。界面设计上对于高光，阴影这样的基本元素都作了舍弃。纯粹的平面设计风格到底是不是用户想要的呢？当真实世界与互联网世界完全割裂的时候，未来的界面设计，到底是不是一个与真实世界没有交集的平行性视觉体系？　　2.过于严格的网格式排布对设计者造成很大的局限。首先不能否认的是网格设计具有良好的指导性，会使界面更加整齐划一。但使用网格并不意味着枯燥的设计，一个好的设计师不仅能够合理地应用基于网格布局的规则，而且还能适时地打破这些规则。但是当规则不能破的时候，如何展开一个有创造性的设计？　　3.增加认知和学习成本。当信息以他本来的面目完整地展示到我们的面前的时候，我们如何快速区分这些信息？目前metro界面使用了色块来快速定位相应的模块。但是如果是色盲患者呢？他们可以看到的，或者是以下这张难以辨认的图。　　正所谓穷则变，变则通。从metro的起源瑞士国际主义平面设计中，我们已经看到了危机与机遇。如何化解相应metro风格下的界面设计呢？其实在诸如无印良品与宜家的相关设计里面，已经可以找到相关的答案。在去繁求简，信息明了的基础上，开放布局，适当增加质感，添加人性化的味道。如下图，同样是信息的直接罗列，但是使用图片带来自然质感。板式灵活，在规矩中与简洁中带来不一样的味道。　　目前为止metro风格的延续与发展还是一个不明朗的疑问号？他或许是现今ui趋势的一个颇为强大的分支。但是它会像科幻电影中未来的界面，到处充斥着由metro风格演化而来的简单的线条与图标信息？我想还是个未知数。";postArray[7506][3]="http://cdc.tencent.com/wp-content/uploads/2013/06/BannerForBlog.jpg";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=151" class="avatar"><img src="http://cdc.tencent.com/data/author_img/151-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/151-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7486">【CDC翻客】从2012年看网站体验的五大趋势</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=151" target="_blank">nina酱</a> / <a href="http://cdc.tencent.com/?category_name=fanke">CDC翻客</a> / 2013.06.04</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7486#comments">18</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7486"><img src="http://cdc.tencent.com/?attachment_id=7501"/></a>
+    <div class="text"><p>　　2012年,用户界面技术持续不断发展，常常有效地模糊了设计、可用性以及技术之间的界限，从而为用户带来了可用性高、愉悦性强的综合体验。例如，无限滚动是一个让用户拥有更加无间断连续体验的技术。类似的，网页排版技术的进步不仅体现在视觉上，也体现在可以更加清晰地传达信息。
+
+...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:3,805</li>
+    <li class="like">喜爱:6</li>
+    <li class="share" onmouseover="share_more(7486,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7486" class="more">阅读全文</a>    </div>
+	<script>postArray[7486]=[];postArray[7486][0]="【CDC翻客】从2012年看网站体验的五大趋势";postArray[7486][1]="http://cdc.tencent.com/?p=7486";postArray[7486][2]="　　译者注：抛砖引玉一篇趋势浅文。此文提炼的比较精辟，让人看完不由觉得“确实如此”。相比其他很多几十条泛泛而谈、泛泛而用的趋势文章来说，算是精品哦。另外，文中有很多优秀网站案例，也值得我们学习。　　原文地址：The Top 5 Website UX Trends of 2012　　2012年,用户界面技术持续不断发展，常常有效地模糊了设计、可用性以及技术之间的界限，从而为用户带来了可用性高、愉悦性强的综合体验。例如，无限滚动是一个让用户拥有更加无间断连续体验的技术。类似的，网页排版技术的进步不仅体现在视觉上，也体现在可以更加清晰地传达信息。 &nbsp;  1.单页网站　　　　单页网站随处可见。大背景图片、丰富的插图和动画技术常常被用来讲故事、娱乐大众以及表达明确清晰的信息。摆脱了传统网站架构的限制，这种创意好、视觉美观的单页网站正蓬勃发展起来。Jess and Russ 和 Ben the Bodyguard是我（译者注：原文作者）很最喜欢的两个单页网站（想看更多优秀案例，请点击这里）。新的趋势无论合适与否，都将被争相模仿。这很容易导致网站风格的同质化，在某些情况下，还会让体验变得很糟糕。当然，如果运用得当，单页网站将是很好的选择。 &nbsp;2. 无限滚动　　　　用户对无限滚动应该已经很熟悉了，可能他们自己还意识不到。无限滚动非常适合展现零散的、实时推送和按时间排列的信息，像Google images 或 Pinterest这类含有大量图片的网站很好的使用了这项技术，但是谨慎地执行来避免用户产生挫败感很重要。Lookbook也是一个很好的案例，无限滚动通过浮动的无线滚动条并结合一个“回到顶部”的按钮，让用户既可以不间断地浏览，也能轻松找到其他部分。无限滚动并不是一个万全之策,所以我们需要考虑充分才能使用。其实对于搜索结果、长列表和电子商务来说，页码标注也许才是最好的选择。 &nbsp;3. 常驻导航　　　　对于复杂的网站、长的滚动页面或者有功能属性的工具栏的网站来说，常驻导航是最佳选择，由于它很容易让用户分心，所以需要弱化掉。 New Zealand's tourism website 是一个很棒的案例，它只有一个顶部的导航栏，剩下的地方足够让主要部分展示内容。Gmail 网站同样把用户常用的操作放在了常驻的工具栏上。&nbsp;4. Web 2.0美学的逝去　　　　我们发现，视觉设计的趋势开始回归本色。排版和信息层级上使用平的、清新的和简单的方式，已经取代了Web2.0时代那种复杂、活泼、多层次的风格。很多网站和App甚至为了跨设备和屏幕分辨率舍弃了纯CSS样式那样生动的图形背景，比如我最喜欢的Basecamp, Dropbox和Smashing Magazine。&nbsp;5. 排版归来　　　　得益于大多数浏览器和设备渲染字体的技术越发成熟，设计师可以更加灵活地选择适合网站风格的字体。现在大家已经越来越意识到内容的重要性，因此如何通过排版更加有效地传达信息也显得尤为重要。未来几年内，在移动设备、响应式设计以及视网膜屏幕中，网站的排版仍然是一个重要焦点。比如我喜欢的一个网站The New Yorker，正文采用了网站标准字体（Times New Roman），再配上设计过的标题和导航(字体分别是Irvin, Neutra)，非常漂亮。　　2013年，我们将继续寻找更多优秀的网站案例，它们会通过平衡视觉、可用性以及技术实现为用户带来更好的体验。　　最后，译者再附上两篇关于2013设计趋势的文章，有时间会再为大家奉上对应的译文：　　http://theindustry.cc/2013/01/07/13-design-trends-for-2013/　　——本文跨平台、综合地总结了13个设计趋势　　http://www.hongkiat.com/blog/web-design-trend-2012/　　http://www.hongkiat.com/blog/web-design-trend-2013/　　——作者在2012年和2013年初总结了当年的网站设计趋势。我们可以来看看2012年的15条兑现了哪些，哪些还更需要努力，而2013的20条又有哪些新的趋势呢？ ";postArray[7486][3]="http://cdc.tencent.com/?attachment_id=7501";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=211" class="avatar"><img src="http://cdc.tencent.com/data/author_img/211-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/211-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7459">设计感悟——产品的三个属性</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=211" target="_blank">leo</a> / <a href="http://cdc.tencent.com/?category_name=ui">视觉设计</a> / 2013.05.30</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7459#comments">33</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7459"><img src="http://cdc.tencent.com/wp-content/uploads/2013/05/blog_banner_leo.jpg"/></a>
+    <div class="text"><p>　　之前突然对产品和设计有些感悟和理解，也跟很多人聊过，发现对方即使不是做设计的，听完以后也觉得挺有意思。所以我也来跟大家分享一下，观点未必正确，但对我还是很有帮助的。...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:17,309</li>
+    <li class="like">喜爱:19</li>
+    <li class="share" onmouseover="share_more(7459,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7459" class="more">阅读全文</a>    </div>
+	<script>postArray[7459]=[];postArray[7459][0]="设计感悟——产品的三个属性";postArray[7459][1]="http://cdc.tencent.com/?p=7459";postArray[7459][2]="         之前突然对产品和设计有些感悟和理解，也跟很多人聊过，发现对方即使不是做设计的，听完以后也觉得挺有意思。所以我也来跟大家分享一下，观点未必正确，但对我还是很有帮助的。          发现在我们生活中的任何一样产品，不论是工业、建筑、服装、互联网产品等等，任何一样人类做出来的东西，从原始人做的石器，到现在人们手中拿的手机，都包含了三要素，就是载体、功能和外观。功能和外观都容易让人记住，来说说载体，手机和家具等工业产品的载体是各种材料，金属、塑料、木材…服装的载体是各种面料，棉、毛、丝、人造纤维…建筑的载体就是水泥、砂、石、木材…网站的载体就是各种信息，是文字、图片、声音、视频…           当发现了这三点以后，一下子让我对产品有了个更清晰的认识。如何评价一个产品，或做好一个产品本身呢？就是要着眼这三点，比如手机，要看它的做工质量（载体）如何，手机的功能是否强大好用，还有外观是否美观漂亮。比如想买一件衣服，要看它的面料的质量（载体）好坏；是否保暖、凉快或是舒服（功能）；看起来是否美观，漂亮（外观），都是来围绕这三点考虑的。再拿设计一个网站或软件来说，需要满足人们的某种需求，将内容、功能和视觉有效合理的组织在一起（交互设计）。其中对产品载体——内容的选择、筛选和组织同样也是设计中重要的一部分，一个好的文案也许更能传达出产品的特性，更能打动人。            除了练好内功，把产品的载体、功能和外观这三大块做好以外，还有些比较“虚”的东西，就是产品的品牌形象和服务。要想做好产品，还需要对其进行包装和推广，并提供良好的服务。我们每天睁开眼，都会面对各种形形色色的广告，这就是外在的对产品包装和宣传，从而建立人们对它的品牌印象。当然广告只是其中的一种表现形式，还会有一些其它的方式，比如一些活动或是人们的口碑相传等等。总之，就是要用一种外在的方式，树立人们心目中对产品的良好形象。除了品牌形象，还有服务，服务是一座桥，是拉近产品和用户之间距离，并能产生良好用户体验的一种外在方式。例如很多产品提供800免费客服电话，上门维修服务等等。          如果说什么是设计，相信每个人心中都会有个答案，我也是在每个阶段对设计的理解或多或少的有些变化，我觉得不论是工业、建筑、服装、广告或是互联网产品等等，想想都是一样的。为什么说是有形的，因为对于一些银行的无形理财类服务产品，还是有一定区别的。 记得曾经我很赞同宜家所说的“设计就是美化功能”这句话，但后来发现它少说了一样东西，就是载体，想想这也正是宜家产品的一个弱项，功能和外观虽好，但它所用的材料确不能公认为是最好的，所以才会使它的价格相对较低，广告中也总是在炫耀它的价格有多么便宜，给人一种物超所值的感觉。 “设计就是美化功能”这句话猛得一看让人们觉得很有道理，但其实它忽略了载体在产品设计中的重要性。          最后再来分享一个影响视觉设计风格的因素吧，我觉得决定最终产品视觉风格的因素有很多，没有绝对的原则，但是会潜移默化的受到很多因素的影响。 ";postArray[7459][3]="http://cdc.tencent.com/wp-content/uploads/2013/05/blog_banner_leo.jpg";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=156" class="avatar"><img src="http://cdc.tencent.com/data/author_img/156-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/156-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7436">那些宽衣解带的事</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=156" target="_blank">Ning</a> / <a href="http://cdc.tencent.com/?category_name=hci">交互设计</a> / 2013.05.28</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7436#comments">35</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7436"><img src="http://cdc.tencent.com/?attachment_id=7449"/></a>
+    <div class="text"><p>　　原谅我以一个这样的题目吸引你来读这篇严肃的文章，这事确实与宽衣解带相关，但更是与我们最关心的人相关，而且他们的需要我们天天在喊却仍然落空。暂且把这群我们关心的人称为老友记。
+...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:4,643</li>
+    <li class="like">喜爱:51</li>
+    <li class="share" onmouseover="share_more(7436,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7436" class="more">阅读全文</a>    </div>
+	<script>postArray[7436]=[];postArray[7436][0]="那些宽衣解带的事";postArray[7436][1]="http://cdc.tencent.com/?p=7436";postArray[7436][2]="　　原谅我以一个这样的题目吸引你来读这篇严肃的文章，这事确实与宽衣解带相关，但更是与我们最关心的人相关，而且他们的需要我们天天在喊却仍然落空。暂且把这群我们关心的人称为老友记。　　（关于“老友记”：这个名字是某一个老人节目里对这个群体的称呼，节目里会请来很多老友记们分享老年生活，被称为“老友记”的他们讲述自己晚年生活非常活跃。　　深究原因， “老人”代表着能力衰退、无法自己照顾自己等贬义。被称为“老友记”的他们脸上不会留露出被称作“老人”的卑微。）&nbsp;&nbsp;        先做个简单的猜题吧，前几天跟奶奶去商场买衣服，猜猜奶奶偏爱的是哪款？        A． 纽扣衬衣  B.假纽扣衬衣         奶奶选择的是A，还特别讨厌B。可是商场卖的大部分新款式都是B。        我试着猜想为什么厂商会大量设计B的假纽扣款式，假纽扣可以直接套进，老友记的手指可能不灵活，免去了扣纽扣的麻烦。可是为什么奶奶不买账？        首先，老友记四肢伸展多多少少不方便，要两手举起经过头从上到下穿进、脱掉的衣服都比较困难；再而，这个动作会把梳理妥当的发型弄乱。        这是我们一直忽略的：以奶奶为例子，头发渐渐开始减少，每次睡醒或出门前整理头发都要一段时间梳理好，确保看上去头发仍然妥帖，掉发不要轻易被发现。但每经过头穿进衣服一次，头发都会被弄乱。观察奶奶几次穿经过头的这种衣服，都会面露羞色。         没经历过也不知道老友记要买到一件合适的内衣有多困难。         某天奶奶悄悄问我能否帮她看看哪里有大尺寸一点的内衣购买。首先正常的实体店内衣尺码很局限，奶奶有点小胖，刚开始我只能在商场买孕妇专卖店里的内衣经过自己修改一下再穿。         后来发现尽管尺码合了，但操作起来很困难。年纪大了以后，双手要伸到背后精确扣上扣子要花好长时间。最后在淘宝上终于找到前扣的老人内衣，买回来奶奶试过也觉得好用很多。         欢喜之余却发现通过这个渠道获得的商品，老友记们自己几乎无法完成，每每要靠儿孙。老友记都是希望自己能照顾自己，不轻易麻烦家人。如何能让他们自己完成才是关键。         某天看到奶奶脚趾有小伤口，不明所以问了下，才明白，奶奶要弯着身体拿着指甲剪精确剪到脚趾甲很不容易，加上眼睛也开始不灵光，剪到有伤口的事情也是有的。         后来尝试购买带放大镜的指甲剪，希望能有所帮助。几天之后发现工具还是没被用起来，一问奶奶才说，老人家都会有点肚腩，眼睛想要离自己的脚趾近一点都会困难，带放大镜又能有多大帮助呢。         老友记们往往非常希望自己能照顾自己， 为什么我们没有更好的设计能让他们独立完成？         小时候总会在不下雨的路上也看到老友记们拿着伞，那时候想：老人家都很害怕下雨吧。        直到婆婆最近也有脚患，刚有好转就希望能继续去与老友们打麻将，可是拄着拐杖出门总是会怕被认为人老了“没用”，婆婆便开始著着“伞”当作是拐杖。可是一般的伞骨力量怕不够，哪天伞弯了摔一下更得不偿失。我们便要开始去寻找够硬朗的伞。        其实老友记们只是想借个力，走起路来舒服点，又不愿意拿着会被认为“无用”的拐杖。        关于这样的故事还有许多，每每看到都会希望尽自己能力把他们照顾好。但作为从事设计行业的自己来说，又更希望能通过工业化大生产做出更多体贴老友记们的产品，并且让他们能轻易购买到。        不知道这篇文章能被多少从事相关行业的儿女孙媳看到，在我们为所有人设计的时候，也为老友记们设计吧。&nbsp;&nbsp;&nbsp;&nbsp;";postArray[7436][3]="http://cdc.tencent.com/?attachment_id=7449";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=214" class="avatar"><img src="http://cdc.tencent.com/data/author_img/214-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/214-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7406">滑动的维度</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=214" target="_blank">ted</a> / <a href="http://cdc.tencent.com/?category_name=hci">交互设计</a> / 2013.05.24</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7406#comments">16</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7406"><img src="http://cdc.tencent.com/?attachment_id=7422"/></a>
+    <div class="text"><p>　　iOS交互模型的最底层引入了“空间”的概念，而空间最基本的属性就是维度。滑动依存于屏幕这个二维环境，也可以从维度这个角度去思考。当滑动被赋予功能，并与界面（信息或控件）结合时，具有很强的可塑性，并可有效提升操作的易用性、高效性、有效性。根据滑动的维度，可以分成一维滑动、二维滑动；同时结合滑动控制界面的方式，也可以分为连续和离散。
+...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:5,245</li>
+    <li class="like">喜爱:15</li>
+    <li class="share" onmouseover="share_more(7406,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7406" class="more">阅读全文</a>    </div>
+	<script>postArray[7406]=[];postArray[7406][0]="滑动的维度";postArray[7406][1]="http://cdc.tencent.com/?p=7406";postArray[7406][2]="前言       在iOS交互模型的最底层，有一个“空间”的概念（具体可见ios空间模型），而空间最基本的属性就是三个维度。滑动依存于屏幕这个二维环境，也可以从维度这个角度去思考。最常见的滑动例如ios里删除短信息的操作，这里的滑动是最基础的，可以理解成一维的、被赋予了唯一功能的操作。但如果认为滑动就是这么简单，那可能忽略了滑动可以为设计带来的千变万化。        当滑动被赋予功能，并与界面（信息或控件）结合时，具有很强的可塑性，并可有效提升操作的易用性、高效性、有效性。根据滑动的维度，可以分成一维滑动、二维滑动；同时结合滑动控制界面的方式，也可以分为连续和离散。通过一些实例具体说明。&nbsp;一维滑动           Mailbox在邮件列表对邮件进行操作时，使用了一维离散型的滑动：            1 向右滑动邮件列表中的一个邮件条目，根据滑动距离的长短先后出现已读，删除操作，release后执行。         2 向左滑动邮件列表中的一个邮件条目，根据滑动距离的长短先后出现归为待办事项、分类归档操作，release后执行。        （图片来自ifanr）               百度浏览器页面缩放的功能，采用了一维连续型滑动：             1 默认在界面底部的工具栏显示最常用操作，             2 在工具栏滑动时，工具栏变为页面缩放的控件；             3 通过滑动距离长短控制页面缩放大小（越右越大），同时上方页面以页面左上为缩放中心，实时反馈页面缩放效果；             4 release结束缩放操作，得到缩放后的页面。     二维滑动             当滑动被赋予的功能增加，或需要更复杂控制时，一维不能解决，可以升维成二维滑动。             ios默认视频播放器的视频进退控制，采用了二维滑动：             操作：按下滑块后沿竖直方向滑动，根据滑动距离切换速度，再横向滑动进退，release后视频进度生效。             效果：下图绿线为手实际滑动距离，紫线为视频进退幅度。不同速度下水平滑动同样距离，视频进退的幅度不同，高速进退幅度最大，慢速最小。                如果把视频播放器的滑动操作抽象，可形成其通过二维滑动变速控制视频进度的二维空间模型，如下：竖直方向的滑动，通过离散的方式选择进退速度。水平方向的滑动，通过连续的方式控制视频进退的幅度。                      类似的还有猛犸浏览器的页面变速滚动功能：              操作：在页面中纵向滑动时，页面以默认滑动速度滚动；如果先从屏幕右边缘横向滑动，便可选择不同滚动速度（越左速度越快），再纵向滑动以滚动页面。       效果：手向下滑动同样距离，速度快的页面滚动幅度大（下图绿线表示手实际滑动距离，紫线表示页面滚动幅度）          滚动功能的二维空间模型如下：                           以上两个二维滑动的例子都是通过在一个维度改变速度去影响另一个维度对幅度的控制。Snapseed的二维滑动操作更加简单易用，在界面任意位置竖直滑动固定距离切换功能，水平滑动控制具体功能的参数大小。 如果把snapseed的滑动操作抽象，可形成其通过二维滑动实现功能切换和参数调节的二维空间模型：                   由此引申一下，当两个维度都可以自由滑动时，滑动可变为拖动。这时为拖动赋予功能，去判断这个功能的标准除了上文提到的滑动距离，还可以是手或被拖动物体到达或离开的区域。例如Launcher中，按下apps后进入二级界面，手滑动到对应区域release激活操作。&nbsp;总结       滑动手势诠释了“模糊的精确”的设计思想，有效提升操作可用性：       1 易于学习并形成习惯用法。       2 在移动环境下使用，适合单手操作，高效易控。       3 通过直接操作的对象或需要时出现，代替工具栏、菜单等常用控件，节省界面空间，为信息让路。       4 易成为产品的杀手级功能和传播点。       当滑动被赋予功能，并与界面（信息或控件）结合时，可以有较强的可塑性，可从以下方面为切入点，结合产品功能进行思考：       1 赋予简单功能的滑动可以是一维的；需要增加功能类别或者强度时，可以升维，形成二维滑动或者拖动。       2 为滑动赋予功能时，去判断这个功能类别或强度的标准可以是滑动的直线距离。为拖动赋予功能时，标准可以是手或被拖动物体到达或离开的区域。       3 借用人机交互学当中的对控制器的定义，滑动可以通过连续或者离散的两种方式去控制界面。       最后，在设计滑动时还要考虑：       1 滑动不是目的而是手段，先功能后交互。       2 按照交互设计从大到小的指导思想，为维度赋予功能前，先梳理功能架构和优先级，把最常用功能置前或者设置为默认生效。  如：maibox中最易触发的向右滑动的第一级，被赋予了最常用的已读功能。       ...";postArray[7406][3]="http://cdc.tencent.com/?attachment_id=7422";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=130" class="avatar"><img src="http://cdc.tencent.com/data/author_img/130-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/130-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7423">【CDC翻客】如何做一款成功的应用（下）</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=130" target="_blank">lost</a> / <a href="http://cdc.tencent.com/?category_name=fanke">CDC翻客</a> / 2013.05.22</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7423#comments">9</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7423"><img src="http://cdc.tencent.com/?attachment_id=7424"/></a>
+    <div class="text"><p>　　技术方案的选择会影响应用的使用体验，进而会影响应用最后能否取得成功。
+　　 “一次开发，多处部署”这一理念对于中小应用并不合适。从一开始，这一理念就被过度神化。不同的操作系统有着不同的UI规范和模式。除了游戏界面外，这种多平台共用的方法最终会造成每一个平台都无法获得良好的用户体验。
+
+　　过去几年Facebook一直尝试采用基于html5进行开发。当最近他们转换为采用iOS本地化开发后，应用的性能提升了百分之二百，用户的平均评分也从2星上升为4星。
+...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:5,128</li>
+    <li class="like">喜爱:13</li>
+    <li class="share" onmouseover="share_more(7423,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7423" class="more">阅读全文</a>    </div>
+	<script>postArray[7423]=[];postArray[7423][0]="【CDC翻客】如何做一款成功的应用（下）";postArray[7423][1]="http://cdc.tencent.com/?p=7423";postArray[7423][2]=" 　　译者注： 本文作者从自身丰富的应用开发设计实践经验和大量的优秀应用实例中，总结提炼了从产品概念、设计、开发到市场推广等一系列的相关原则，指导移动开发人员怎样来打造一款成功赚钱的应用。姗姗来迟的这篇文章希望给大家带来一些感悟与帮助。　　原文地址： http://mobile.smashingmagazine.com/2012/11/07/succeed-with-your-app/&nbsp; 　　上篇请见：http://cdc.tencent.com/?p=7262&nbsp;3. 开发编程　　技术方案的选择会影响应用的使用体验，进而会影响应用最后能否取得成功。　　本地化开发 　　“一次开发，多处部署”这一理念对于中小应用并不合适。从一开始，这一理念就被过度神化。不同的操作系统有着不同的UI规范和模式。除了游戏界面外，这种多平台共用的方法最终会造成每一个平台都无法获得良好的用户体验。过去几年Facebook一直尝试采用基于html5进行开发。当最近他们转换为采用iOS本地化开发后，应用的性能提升了百分之二百，用户的平均评分也从2星上升为4星。　　当然最好的情况是，一次开发并优化适配于各平台。像Zipcar这类应用就成功的采用了这种方法。不过对于这种方法来说Zipcar是个例外。有一些原因可以说明这种情况：　　1) 一次开发，多处部署的理念会严重限制应用的设计工作。这种方法扼杀了创新的设计，同时为了满足最基础的适合于全平台的方案，需要去除掉一些特定的设计细节。　　2) 类似于PhoneGap所采用的是混合型技术方案，通过JavaScript代码的运行在浏览器中打开应用。避免采用这种方案。因为其存在运行缓慢、性能不稳定、表现不自然和错误百出的问题，因为JavaScript技术并没有完全适配本地化体验。　　3) 类似于Appcelerator这种工具型应用采用了本地化开发方案。 这种方案下的性能表现会提升很多，但是仍然缺乏灵活性，代码的稳定性也有所欠缺。由于无法直接访问手机后台所运行的代码，因此各种错误也更加难以定位和修复。这种方案同样很难立即实现各种新的技术，与那些可以在新技术发布之初就采用的竞争对手相比，这是一个明显的劣势。　　4) 底线：基于设计选择合适的技术方案，而不是基于技术方案进行设计。首先要设计满足多平台的应用方案，然后再观察是否有类似Appcelerator这样的方案，可以不用为了妥协而舍弃设计。　　代码质量　　结构清晰、规划合理的代码不会直接影响用户的体验，但是它一定会影响及时发布、稳定更新这些产品实现可持续发展的成功要素。　　反之，糟糕的代码会直接影响用户的体验。用户不关心应用为什么会崩溃，不关心数据为什么会丢失，他们把这些归咎为品牌的错误。　　按小时计费来雇佣开发人员可能会很坑爹。同样的时间内，一名糟糕的程序人员可以马马虎虎的写出一个功能模块，而一名优秀的程序员可以写出三个强健稳定的模块。一旦你决定换掉那个糟糕的程序员，那么继任者很可能花费时间重新编写代码，因为这些遗留代码只有作者自己能看懂。而优秀的开发人员所写出的代码通常更容易复用。&nbsp;4. 市场营销　　如果你们的团队已经有了市场营销部门，那么还不错，不过由开发人员或设计人员发起的草根式市场活动常常会更有效率。相信我，当我刚刚起步的时候，没人知道我是谁。而现在包括苹果、Mashable、TechCrunch、The Huffington Post、Fox新闻等诸多方面都开始关注我的应用。除了网站建设和维护的费用，我没有在市场推广活动上花费一分钱。　　提早开始　　很多开发人员都认为市场推广活动应该在在app发布之后再开始。但事实并非如此。　　一场精心准备和策划的发布活动至关重要，尤其对于那些售价较低的应用。如果发布活动没能将你的应用推向排行榜的前几名，那么它就很可能被淹没在每星期发布的数以千计的应用海洋中。一个没有出现在排行榜里的应用的对于用户来说几乎是隐形的。　　发布上线之后，用户留下的评论对于推动应用的排名并没有太多帮助。这仅仅是App Store中排名体系的工作模式。排名算法一直发生着变动，但主要还是依据一段时间内的下载量，比如说截至当天为止的四天内。这意味着当天所做的推广并不能马上影响接下来一周的排名情况，碎片化的营销是没有意义的。只有持续的集中推广才会带来效果。　　正如App Savvy一书作者Ken Yarmosh指出，市场推广活动应该在产品初期就开始启动，然后随着产品发开不断进行，知道发布当日做出完美一击。　　结交朋友　　人脉是至关重要的因素。他们会让你的市场推广活动更有效。没有相关的人际关系意味着你无法获得媒体的关注，你的应用会淹没在成千上万的竞争激烈的应用中。我在Twitter里创建了很多关注列表，其中包括苹果员工、媒体人和一些知名iOS开发人员，这样能帮助我建立和他们之间的联系。　　与圈子里的苹果员工、科技写手和知名设计开发人员进行交流。这些人真的很酷，而且他们乐意与那些有好的产品和想法的人打交道。　　1) 找到他们　　Twitter是个好地方，几乎业界有影响力的人都发Tweet。　　在知名博客发表评论或者给作者写邮件，这些都是展开联系的好办法。　　面对面交流是最有效的，多参加一些WWDC和其他的业界大会，这样可以认识到很多人。　　2) 有趣，但不要发布垃圾广告　　有机会和这些人交流不代表他们会长时间的对你的应用保持兴趣。首先建立有意义的人际关系。他们会问你正在做哪些有趣的事情。当你展示你的工作成果时，以一种寻求建议和反馈的方式，而不是广告式的推销。这样会带来好的结果。　　3) 付出带来回报　　沟通的过程中了解他们的想法，他们需要什么，这样会建立起有意义的人际关系。也许你可以回答他们在Twitter里提出的技术问题或者对他们博客里的观点发表你的理解。一定要有所反馈！多做几次，他们一定会注意到你。最后要记住人都是有虚荣心的，当你对他们的工作表示欣赏时，一定要让他们知道。　　4) 发布有趣的信息　　链接一些有想法的文章，甚至写写博客，分享自己所学到的内容。人们喜欢阅读真实的日志和应用分析文章。类似iDevBlogADay这样的网站会将你的文章推荐给大家。　　宣传造势　　你肯定不希望发布当天的效果很糟，那么在应用发布上线前的几周就可以开始宣传造势了。 这样做就是为了建立第一批用户粉丝，确保他们会成为发布当天第一批下载应用的人。类似Teaser这样的网站可以帮助你建立预期并且收集用户的邮箱地址。　　1) 为你的应用创建Twitter和Facebook账号。这为你的潜在用户提供了关注了解应用的快捷途径。你可以发布产品的预览信息、更新进度等内容。你甚至可以关注那些有可能对你的应用产生兴趣的人。他们会看到你的关注，然后来了解你的产品。　　2) 建立产品预览页面,提供表单让用户留下他们的邮箱。提供一些可以吸引人的内容，比如富有吸引力的网页设计、漂亮的截图甚至可能是一段视屏。　　3) 创建演示视频。没有什么比一个制作精良的视频的宣传效果更好。Clear的演示视频就很好地说明了这一点。这也是一个很好的向媒体展示产品的手段。　　4) 内部测试。你的测试用户会成为产品发布后的首批忠实使用者。因为他们会觉得自己与产品是有关联的。　　获得推荐　　自从赢得苹果的设计奖项后，我的应用被各种科技媒体争相推荐，而这些媒体都是我之前梦寐所求的。但是所有这些媒体加在一起所产生的下载量都不如苹果官方推荐所带来的那么多。　　那么怎样才能获得苹果的推荐呢？每周都会发布成千上万的应用，而只有极少部分可以在app store的首页占据位置。仅有一小部分应用可以登上Apple Store首页　　首先，应用要具有值得被推荐的点。它必须在某方面能够引起苹果的兴趣。它是否设计的足够精致漂亮？是否能够体现苹果平台的强大？是否有哪些特质是其他同类产品所不具备的？其中任何一点都可以成为你获得推荐的机会。幸运的是，很少有产品具备刚刚所讨论的特质，这使得你有机会脱颖而出。　　其次，你需要引起苹果的注意。与苹果内部结交是非常宝贵的机会。通常，你需要在苹果采取行动前通过自身努力引起他们的关注。苹果有一个编辑团队。他们寻找那些值得推荐的应用，你需要让自己的产品出现在他们关注的那些地方。根据我过往的经验，他们可能会留意那些正在“冲榜”的应用。因此，你要保证产品在发布当天有一个好的销量。每个应用类目下，都至少需要产生几百次的下载才能出现在榜单中。除此之外，想想你可能会在哪些网站寻找那些新的优质应用，那也可能是苹果的编辑们所关注的网站。　　媒体的力量　　媒体报道会帮助你建立产品的可信度，带来第一批的下载量，获得在知名人士或苹果员工面前曝光的机会。媒体们都很忙，至少要在发布前的一到两周就获取他们的关注，这样才能保证相关报道在发布当天出现在大家面前。获得媒体的报道是出色的营销战略中不可缺少的重要一环。　　现在就是你联系之前那些在媒体和科技圈子所认识的朋友们的时候了。向他们展示一些产品的预览，然后看他们是否有兴趣了解更多。　　联系完这些关系后，接下来打几通电话。你可以讲一个故事，要保持简短和个人化，另外不要忘了持续跟踪。　　建立用户群　　那些最具实力的公司都拥有庞大的用户群。与我们合作开发最新应用Languages的公司 Sonico Mobile，最近发布了一款名为iTranslate Voice的应用。他们几乎没有借助任何来自媒体或苹果的帮助就取得了不错的成绩。他们是怎样做到的？因为Sonico拥有3千万的iTranslate的忠实用户，他们要做的是只是向这些用户发一封新产品的宣传邮件。用户可以轻松的在Twitter或邮箱订阅Sonico全部应用的信息。　　庞大的用户群的建立是需要时间的。确保用户可以很方便的添加你的邮箱地址、喜爱你的Facebook主页、关注你的Twitter账户。除此之外，可以考虑发布一款面向大众的免费应用，以此来获取更多的用户。像Swappit提供免费广告服务，你可以累计积分然后在应用发布当日全部兑换来换取应用的推广。&nbsp;总结　　衡量成功的标准有很多。我的应用Grade的第一版只带来不到10000美金的收入，但是他却是通往苹果设计奖的第一步，也为我带来了很多宝贵的业内人脉关系。现在，我们的公司已经定位在推出Languages这样的顶级畅销应用，而不仅在于与Grade相比能产生更高的收入。　　获得财富上的成功是很难的，但只要你努力前行，它会变得越来越简单。随着你持续打造优质应用，你的品牌会逐渐被媒体和苹果所认可，你的团队会收获宝贵的实践经验，你会建立起庞大的用户群。这确实是一场长期的任务，但回报也是不可思议的。当你知道你的努力工作为令数以百万的人感到愉悦时，那种感觉简直太棒了。保持学习，不要抱怨，改变这个世界。&nbsp;更多“CDC翻客”文章，请移步：http://cdc.tencent.com/?category_name=fanke&nbsp;";postArray[7423][3]="http://cdc.tencent.com/?attachment_id=7424";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=172" class="avatar"><img src="http://cdc.tencent.com/data/author_img/172-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/172-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7382">atc-前端模板预编译器</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=172" target="_blank">糖饼</a> / <a href="http://cdc.tencent.com/?category_name=code">技术沙龙</a> / 2013.05.20</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7382#comments">29</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7382"><img src="http://cdc.tencent.com/wp-content/uploads/2013/05/banner.jpg"/></a>
+    <div class="text"><p>　　atc 前端模板编译器是腾讯 CDC 前端小组研发的一款自动化工具，它能把前端模板编译成不依赖模板引擎运行的JS文件，让前端模板可以突破浏览器的限制，实现像后端模板一样按文件与目录的方式组织、自动载入include嵌套等，以解决端模板规模化后难以维护的问题。...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:4,851</li>
+    <li class="like">喜爱:13</li>
+    <li class="share" onmouseover="share_more(7382,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7382" class="more">阅读全文</a>    </div>
+	<script>postArray[7382]=[];postArray[7382][0]="atc-前端模板预编译器";postArray[7382][1]="http://cdc.tencent.com/?p=7382";postArray[7382][2]="atc 前端模板编译器是腾讯 CDC 前端小组研发的一款自动化工具，它能把前端模板编译成不依赖模板引擎运行的 JS 文件，让前端模板可以突破浏览器的限制，实现像后端模板一样按文件与目录的方式组织、自动载入 include 嵌套等，以解决端模板规模化后难以维护的问题。&nbsp;前端技术之痛与爱随着 HTML5 时代到来，前端技术在不断的发展壮大，我们为此欣喜若狂。但作为一名前端开发者，我们也不无时无刻的感受到很多看似平常的技术因为浏览器制约难以在前端中实现，其中之一便是模板技术。虽然我们已经有了很多优秀的前端模板引擎可以选择，但前端模板技术与服务器模板技术却完全不是一个层面的东西，受浏览器限制，前端模板按文件与目录组织、include 这些基本的特性几乎无法实现。例如：而前端模板最佳实践是把所有模板使用 &lt;script type=text/html .. 标签写在页面里面。示例随着应用越来越复杂、模板越来越多、模板各种依赖出现的时候，我们的页面会变得臃肿不堪、难以维护， 以至于我们不得不拿出各种技巧进行所谓优化，如抽离到js中、按需加载等。回过头再来看这些最佳实践，殊不知我们不经意之间为了解决一个问题引发了更多的问题，如跨域部署、依赖管理、压缩、按需加载、请求合并等。如何才是最佳的前端模板组织方案呢？&nbsp;atc-模板预编译器atc 即 artTemplate compiler，基于 artTemplate 实现的前端模板预编译器，使用它可以让前端模版不再受浏览器的限制，支持如后端模版一样按文件放置、include 语句等特性：模板使用者无需关心模板内部的依赖，子模板会自动提前载入。编译后的模板不再依赖模板引擎，模板可以通过 SeaJS 或 RequireJS 等加载器进行异步加载，亦能利用它们成熟的打包合并工具进行上线前的优化，如合并与压缩。注：artTemplate 也是 CDC 对外开源的前端模板引擎。它可以在浏览器、基于NodeJS的服务端、Windows脚本宿主中运行，相关介绍： http://cdc.tencent.com/?p=5723&nbsp;atc-原理atc 通过静态分析前端模板语法，把模板编译成对应的 js 文件，并包装成 cmd 异步模块。它生成的代码严谨且易于阅读，一个带include语句的模板编译原理：模板使用者只需要利用脚本加载器 SeaJS 或者 RequireJS 指定路径即可加载，它们会自动处理模板中的包含关系，如使用 SeaJS 加载模板方式：在线查看编译好的示例&nbsp;预编译模板的优势	利于维护：基于文件进行管理，大量模板可以有序组织	模板复用：模板自身支持include语句引入外部模板文件，自动提前加载	调试友好：编译后的模板无evel与new Function，错误可以被浏览器捕获；亦可映射模板文件到本地进行开发	按需加载：各取所需，最大化节省网络流量	按需合并：可通过打包工具按需合并模板，以减少HTTP请求数	跨域部署：模板不再受限页面以及页面所处的域，可部署至CDN&nbsp;项目主页http://cdc-im.github.io/atc/";postArray[7382][3]="http://cdc.tencent.com/wp-content/uploads/2013/05/banner.jpg";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=5" class="avatar"><img src="http://cdc.tencent.com/data/author_img/5-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/5-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7379">七年了，我们一直在一起</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=5" target="_blank">绿桔</a> / <a href="http://cdc.tencent.com/?category_name=whatsup">最近折腾</a> / 2013.05.18</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7379#comments">69</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7379"><img src="http://cdc.tencent.com/?attachment_id=7381"/></a>
+    <div class="text"><p>　　7年，不痒。518，CDC迎来了7年纪念。
+...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:7,012</li>
+    <li class="like">喜爱:28</li>
+    <li class="share" onmouseover="share_more(7379,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7379" class="more">阅读全文</a>    </div>
+	<script>postArray[7379]=[];postArray[7379][0]="七年了，我们一直在一起";postArray[7379][1]="http://cdc.tencent.com/?p=7379";postArray[7379][2]="　　7年，不痒。 　　518，CDC迎来了7年纪念。 　　这7年，cdc由成立时30人的小团队，成长到今天300人的规模，为腾讯5大事业群提供研究与设计服务，是腾讯对用户体验、对创新设计高度重视的一面旗帜。更由于2010年曾作为胡锦涛主席的接待点之一，从此成为了腾讯乃至深圳创新科技的一道五星级风景。我们在努力的一切，不敢说有多么的出彩，却可以坚定的说，这里一直是有梦想的地方。 　　但7年也是一个神奇的定律，它暗示着酝酿和变化。当我们的发展日渐常规，当我们的规模已经不能再接受膨胀，调整与变革如箭在弦。我们在思考，怎么才能让设计更有价值，同时怎么才能让CDC这个品牌更有价值。我想，CDC的第八年，将会是探索与变革的一年。 　　我们相信，我们这群有爱有梦想的CDC人，都不喜欢墨守成规，一定会一起走出一条不寻常的设计路。     　所以，在此刻，CDC的创始人Thomas，完成了他在腾讯十年的目标，带着对设计的爱与梦，踏上新的征程。 　　未来充满了未知，但也正因为未知，所以有无限的想象空间，所以有无限的可能，所以更有意思更精彩！CDC给予每个CDC人的，不只是一个团队，不只是一份荣誉，更是一种坚定的信念与勇气。 　　祝福CDC！祝福Thomas！      &nbsp;";postArray[7379][3]="http://cdc.tencent.com/?attachment_id=7381";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=213" class="avatar"><img src="http://cdc.tencent.com/data/author_img/213-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/213-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7371">手机实时滤镜和495年的波纹</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=213" target="_blank">orkid</a> / <a href="http://cdc.tencent.com/?category_name=code">技术沙龙</a> / 2013.05.16</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7371#comments">19</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7371"><img src="http://cdc.tencent.com/wp-content/uploads/2013/05/banner-shuiwen.jpg"/></a>
+    <div class="text"><p>　　开发滤镜的一大乐趣就是研发滤镜特效。好的滤镜特效可以给用户带来视觉的美，又能让开发者感受到数学的美。而“涟漪”滤镜就是一种将视觉的美和数学的美高度融合的特效。要还原出一个自然的涟漪效果，需要了解波的特性。我们看到水面晃动的原因，在于产生水纹时，水面并不平整。水纹上的每个点，由于振幅（也就是水深）的不一样，与水底的光源距离不一，从而会产生视差。弄清楚这个原因之后，只需要还原这个现象，就可以绘制出惟妙惟肖的水纹特效了。...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:3,962</li>
+    <li class="like">喜爱:12</li>
+    <li class="share" onmouseover="share_more(7371,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7371" class="more">阅读全文</a>    </div>
+	<script>postArray[7371]=[];postArray[7371][0]="手机实时滤镜和495年的波纹";postArray[7371][1]="http://cdc.tencent.com/?p=7371";postArray[7371][2]="　　开发滤镜的一大乐趣就是研发滤镜特效。好的滤镜特效可以给用户带来视觉的美，又能让开发者感受到数学的美。而“涟漪”滤镜就是一种将视觉的美和数学的美高度融合的特效。　　要还原出一个自然的涟漪效果，需要了解波的特性。我们看到水面晃动的原因，在于产生水纹时，水面并不平整。水纹上的每个点，由于振幅（也就是水深）的不一样，与水底的光源距离不一，从而会产生视差。弄清楚这个原因之后，只需要还原这个现象，就可以绘制出惟妙惟肖的水纹特效了。　　首先，需要知道水面上每个点的振幅。可以将水面看作是一个连续的点阵:　　那么根据波的传导性，任意时刻一个点的振幅，都是由这个点当前振幅和其前后左右四个点的振幅所影响的（任何非正交的波都能投影到这两个维度上来）。因此我们可以用归纳法求出任意时刻这个水面上任意一点的振幅。假设某一时刻，X0点有前后左右四个点X1,X2,X3,X4，那么可得X0’=aX1+bX2+cX3+dX4+eX0(其中X0’为下一时刻X0的振幅)。由常识可知，前后左右四个点是对称的，他们对中心点的影响是一样的，所以X1,X2,X3,X4的系数应该一样，那么这个公式就简化成了X0’=a(X1+X2+X3+X4)+bX0。如果水的阻力为0，也就是说水波的势能不会被损耗的话，那么所有点的振幅的和应该是不变的，即X0’+…+Xn’=X0+…+Xn，带入到前面的公式里，可得(4a+b)X0+…+(4a+b)Xn=X0+…+Xn，而每个点的系数又必须一致，推出(4a+b)=1。这里取一个最简单的解a=1/2,b=-1。取这个解除了其本身较为简单外，对计算机而言1/2完全可以用位运算而不用乘除法，能提高运算效率。于是原式变形为X0’= (X1+X2+X3+X4)/2-bX0。　　然而，自然界中的水波不会在湖面上无尽的漫延，为了更加真实的还原，必须将水的阻力考虑进去。测试的数据显示用1/32比较合适，也就是说水波每个时刻衰减为原来的1/32，而1/32也可以用位运算来解决。　　现在我们知道了任意时刻，水面上任意一点的振幅，然而这离渲染出水纹还有一段距离。因为折射的作用，不垂直于水面的光因折射而对观察物产生了偏移。这个偏移量受制于诸多因素，包括水的深度和水的折射率等等。将这些全部都算进去，手机CPU的运算能力达不到实时的要求，而且会产生画面lag，反而降低了真实性。其实这里做线性的近似处理即可。水面越倾斜，观察者看到水底的偏移量就越大，因此只需要简单的用水面上某个点的前后，左右两点见的波幅之差来表示这个偏移量的x,y方向上的值。　　到这里之前，移动终端绘制水纹的步骤还是和个人电脑保持一致，可以借鉴的。接下来，个人电脑会离屏保存原图像并根据前文的原理实时绘制另一个图像并渲染。然而移动终端则不能简单的这么做，原因有两个：第一，手机的运算能力达不到个人电脑的水平，运算耗时多，对于某些低端机型来说会产生严重的lag，导致视觉体验很差（事实上测试发现在itouch5和galaxy3这些机型上是不会有明显lag的，可以采用个人电脑的解决方案），没有能很好的利用到GPU的强大并发运算能力；第二，手机显卡受制于参数长度限制，有的显卡支持4096位的参数，有的连1024位都支持不到，但是，即使支持到4096位参数的显卡，也明显支持不了640x480（一般的预览分辨率大小）位的参数，将处理数据的工作交给GPU似乎也并不可行。　　为了解决这两个问题，我们可以尝试把振幅参数当作一张纹理贴图(texture)传给GPU来进行运算。这么做的好处多多，首先，每一个点都有自己的振幅，振幅和点可以一一对应起来，即640x480个点就对应出640x480个振幅参数，这样两张纹理（既原图和振幅参数）的坐标可以统一，避免了繁杂的坐标转换计算；其次虽然GPU也有纹理数上限，但是几乎都能支持两张纹理，巧妙的避开了参数纬度过长的问题；最后，我们可以将偏移量计算放入到GPU中并发进行，在CPU这边，只需要计算每个点在某一时刻对振幅的影响即可，运算量急剧下降，从而提升了绘制的效率。对于原纹理textureA，和振幅纹理textureB，输出的颜色color:float xoff = (textureB(x-unitWidth)-textureB(x+unitWidth)).afloat yoff = (textureB(y-unitHeight)-textureB(y+unitHeight)).acolor.rgb = textureA(x-xoff, y-yoff).rgb;（以上把振幅参数作为alpha值传入，事实上作为a,r,g,b任何一个亦可）以下附上一张手机上水纹算法的截图，是不是特别有feel呢！PS：水纹算法来自网络，基于手机和Opengl es的特殊处理为原创。感谢李老湿和小k的技术支持！";postArray[7371][3]="http://cdc.tencent.com/wp-content/uploads/2013/05/banner-shuiwen.jpg";</script>    </div>
+    <!--content_text End-->
+    <!--content_text-->
+    <div class="content_text">
+    <div class="title">
+    <a href="http://cdc.tencent.com/?authorid=122" class="avatar"><img src="http://cdc.tencent.com/data/author_img/122-1.jpg" /><span><img src="http://cdc.tencent.com/data/author_img/122-2.jpg" /></span></a>
+    <i class="line_h"></i>
+    <h3><a href="http://cdc.tencent.com/?p=7351">【CDC翻客】追寻点击愉悦感—提升网站平板体验的6个技巧</a></h3>
+    <p><a href="http://cdc.tencent.com/?authorid=122" target="_blank">Queen</a> / <a href="http://cdc.tencent.com/?category_name=fanke">CDC翻客</a> / 2013.05.15</p>
+    <a onfocus="this.blur()" class="up" href="http://cdc.tencent.com/?p=7351#comments">35</a>
+    </div>
+    <!--content_banner-->
+    <div class="content_banner">
+    <a href="http://cdc.tencent.com/?p=7351"><img src="http://cdc.tencent.com/?attachment_id=7352"/></a>
+    <div class="text"><p>　　在这篇文章发布时，仅在美国就有近70万的平板电脑用户，这比前一年的数据增加了一倍。这意味着，美国近30％的互联网用户使用平板设备上网浏览。2011年到2012年间，电子商务网站在平板电脑上的交易量增长了348％，第一次超越智能手机的交易量。由于平板市场很年轻，其未来的发展空间必定很大。
+　　这一趋势传递了一个强烈的信号：如果你的网站还没有针对平板电脑进行设计的话，现在是时候优先考虑其在平板电脑上的可用性了。否则，忽略这一点可能会对网站的整体转化率，回访量，销售量等带来负面影响。...</p></div>
+    </div>
+    <!--toolBar-->
+    <div class="toolBar">
+    <ul>
+    <li class="browse">浏览:6,081</li>
+    <li class="like">喜爱:15</li>
+    <li class="share" onmouseover="share_more(7351,this);"><a href="javascript:;">分享到...</a></li>
+    </ul>
+    <a href="http://cdc.tencent.com/?p=7351" class="more">阅读全文</a>    </div>
+	<script>postArray[7351]=[];postArray[7351][0]="【CDC翻客】追寻点击愉悦感—提升网站平板体验的6个技巧";postArray[7351][1]="http://cdc.tencent.com/?p=7351";postArray[7351][2]="　　译者注：随着平板电脑市场的迅猛增长，你可曾考虑到网站在平板上的用户体验？本文给出了6个提升网站平板体验的简易技巧，让你花小气力，出大成果，可谓事半功倍。要不你试试看。　　原文链接：http://uxmag.com/articles/the-pursuit-of-tappiness 　　在这篇文章发布时，仅在美国就有近7000万的平板电脑用户，这比前一年的数据增加了一倍。这意味着，美国近30％的互联网用户使用平板设备上网浏览。2011年到2012年间，电子商务网站在平板电脑上的交易量增长了348％，第一次超越智能手机的交易量。由于平板市场很年轻，其未来的发展空间必定很大。　　这一趋势传递了一个强烈的信号：如果你的网站还没有针对平板电脑进行设计的话，现在是时候优先考虑其在平板电脑上的可用性了。否则，忽略这一点可能会对网站的整体转化率，回访量，销售量等带来负面影响。 什么是“点击愉悦感”（tappiness）？　　当一个网站具有“点击愉悦感”时，用户在手机或平板设备进行访问的操作将变得容易而愉快。点击愉悦感包括巧妙使用的空间，易于阅读的文本，符合逻辑的交互线索，和大尺寸的点击目标，这些让访问者浏览网站时充满信心。本设计中，大字体和大点击目标的体验很好，即使在平板电脑上缩小后，体验依然不错。　　而在另一些设计中，文字太小无法阅读，链接太接近容易误操作，无形中增加了操作时间、复杂度以及体验上的挫败感。糟糕的体验下，用户将快速流失。本设计中的小字体和小触摸目标被证明在平板电脑上难以阅读和使用。　　一种理想选择可能是：重新设计你的网站，让它能针对各种不同设备进行自适应布局，但时间和成本可能会使你无法完成这样的全面翻新。然而你还有其他选择。本文给出一些技巧和方法，能快速帮助你提升网站的平板用户体验，只需几个简单的变化，你今天就可以做到！ 提升网站点击愉悦感的6个简易技巧　　只需一些细微的CSS调整即可大大提升平板电脑的可读性和导航精准度。　　1、增加普通按钮和立即行动按钮（calls-to-action）的大小和外边距（margin）。大多数人的手指点击区域约为45-57像素，千万不要让用户费劲地寻找和点击“购买”按钮。　　2、链接和立即行动按钮应应显示为可点击态，而不是hover态。在平板电脑上，hover态是不存在的。文本链接应当用清晰、对比强烈的颜色。不要害怕使用下划线来表示默认链接状态。 　　3、增加字体大小来提升可读性。在原有字体上，增加一些字体像素值（px值）或是提升字体显示百分比（em值）都会好很多。正所谓事半功倍。　　4、增大导航菜单项的内边距（padding）。可以试着先增加5-10个像素，如果设计允许的话，也可增加更多内边距。　　5、增大页面和内容块的外边距（margin）。这一改进可以提升整体易读性，降低视觉复杂度。相比拥挤的网站来说，增加留白能营造更加易用的印象。 　　6、增加表单输入框的大小和间距。这样用户将更容易点击并输入信息。改进表单样式，可以极大提升网站的转化率。 　　另外，这些简单的CSS变化很可能也将利于你的桌面用户。当然，按照惯例，正式上线前，要确保在所有平台和浏览器上测试改动过的内容。 具有点击愉悦感的网站案例　　下面几个网站很好地体现了点击愉悦感。你可以在平板电脑和桌面上都体验下这些网站。请注意，这些网站并未针对平板电脑使用不同的布局或版本。然而，同一网站在两个平台上看起来都不错，而且操作也都很方便。　　Fitbit 采用了合理的留白空间，外加大号字体和大尺寸触摸目标。 　　Comcast 的网站提供了大号字体和间距。你还可以注意到清晰标识的链接、分布合理的导航和辅助导航，以及大且易用的表单输入框。　　虽然 Skillshare 网站的主体文字略小，但它确实提供了点击区域大且易用的导航按钮和立即行动按钮，此外，内容区域周围也留有了足够空间。　　Apple 官网有点击愉悦感并不奇怪。毕竟，他们是手持式触摸屏设计的先锋。 总结　　你的网站是否具有点击愉悦感？请你自己在平板设备上体验一下。如果你的网站在平板电脑上体验不好的话，就可能会失去用户、转化率和金钱。　　本文带给你的好处就是：你不需要大量的时间和金钱，就能通过一些微小的、渐进式的变化大大提升平板用户的体验，也就意味着，你可以省下一大笔成本咯！ 　　查看“CDC翻客”更多文章，请移步：http://cdc.tencent.com/?category_name=fanke ";postArray[7351][3]="http://cdc.tencent.com/?attachment_id=7352";</script>    </div>
+    <!--content_text End-->
+
+    <!--Page-->
+	<div class="page"><span class="current">1</span> <a href="http://cdc.tencent.com/?paged=2">2</a> <a href="http://cdc.tencent.com/?paged=3">3</a> <a href="http://cdc.tencent.com/?paged=4">4</a> <a href="http://cdc.tencent.com/?paged=5">5</a> <a href="http://cdc.tencent.com/?paged=6">6</a> <a href="http://cdc.tencent.com/?paged=7">7</a> &nbsp;...<a href="http://cdc.tencent.com/?paged=2" class="next"> 下页 &gt; </a><span class="jump"><em>跳转至 #&nbsp;</em><input name="" type="text" onkeydown="if (window.event.keyCode==13){window.location='http://cdc.tencent.com/?paged='+this.value;}" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" /></span><a href="#top" class="back_top"></a></div>    <!--Page End-->
+</div>
+<!--Content End-->
+
+<!--Sidebar-->
+<div id="sidebar">
+
+    <!--Search-->
+    <div class="search">
+	<form method="get" id="searchform" action="http://cdc.tencent.com" target="_blank">
+    <input name="s" type="text" value="搜索CDC" onfocus="this.value='';" onblur="if(this.value==''){this.value='搜索CDC';}" />
+    <input name="" type="submit" value="" class="so" onmouseout="this.className='so'" onmouseover="this.className='soHover'" />
+	</form>
+    </div>
+    <!--Search End-->
+
+ 
+    <!--UID2-->
+    <!--
+    <div class="uid2">
+	<object type="application/x-shockwave-flash" data="http://cdc.tencent.com/wp-content/uploads/2011/10/uid.swf" width="220" height="79">
+	<param name="movie" value="http://cdc.tencent.com/wp-content/uploads/2011/10/uid.swf" /><param name="wmode" value="Opaque" />
+	</object>
+    </div>
+    -->
+    <!--UID2 End-->
+
+
+     <!--album-->
+
+<div class="album" id="player">
+<ul class="ulImg">
+<li>
+<a href="http://cdc.tencent.com/?download=cdcdesign" target="_blank"><img width="210" height="245" src="http://cdc.tencent.com/wp-content/uploads/2012/12/ads_3.jpg"></a>
+</li>
+<cite class="album_on">
+<span class="on"></span>
+</cite>
+</ul>
+</div>
+    <!--album End-->
+
+<!--weixin id-->
+<div id="weixin">
+<img src="/wp-content/uploads/2013/02/weixin_2.jpg" />
+</div>
+<!--weixin id end-->
+	   
+    <!--腾讯微博-->
+    <h1 class="weibo"><a href="http://cdc.tencent.com/?download=tweibo" target="_blank"><cite>收听CDC腾讯官方微博</cite></a></h1>
+    <div class="microblog" id="microblog">
+	<p>加载中...</p>
+	</div>
+	<script>
+		cdcAjax('http://cdc.tencent.com/data/ajax/load_t_qq_com.php',load_t_qq_com)
+		function load_t_qq_com(ret){document.getElementById("microblog").innerHTML = ret;}
+	</script>
+    <!--腾讯微博 End-->
+	
+    <!--文章分类-->
+	    <h1><b class="classify"></b></h1>
+    <div class="classify">
+	<ul>
+    <ul><li><a href="http://cdc.tencent.com/?category_name=hci">交互设计 +</a></li><li><a href="http://cdc.tencent.com/?category_name=ui">视觉设计 +</a></li><li><a href="http://cdc.tencent.com/?category_name=albums">摄影印象 +</a></li><li><a href="http://cdc.tencent.com/?category_name=ce">用户研究 +</a></li><li><a href="http://cdc.tencent.com/?category_name=code">技术沙龙 +</a></li><li><a href="http://cdc.tencent.com/?category_name=brand">品牌维生素 +</a></li><li><a href="http://cdc.tencent.com/?category_name=cdcnew">新人Show +</a></li><li><a href="http://cdc.tencent.com/?category_name=whatsup">最近折腾 +</a></li><li><a href="http://cdc.tencent.com/?category_name=share">虾饺烧卖 +</a></li><li><a href="http://cdc.tencent.com/?category_name=cdc-bj">CDC北京 +</a></li><li><a href="http://cdc.tencent.com/?category_name=cdc-sh">CDC上海 +</a></li><li><a href="http://cdc.tencent.com/?category_name=fanke">CDC翻客 +</a></li><li class="none"><a href="http://cdc.tencent.com/?category_name=training">魔鬼训练营 +</a></li></ul>	</ul>
+	</div>
+    <!--文章分类 End-->
+
+    <!--热门标签-->
+    <h1><b class="tags"></b></h1>
+    <div class="classify">
+	<ul>
+	<li class="none"><a href='http://cdc.tencent.com/?tag=theory' class='tag-link-16' title='62 个话题' style='/*font-size: 22pt;*/'>理论</a></li><li class="none"><a href='http://cdc.tencent.com/?tag=sidelights' class='tag-link-14' title='36 个话题' style='/*font-size: 14.681818181818pt;*/'>花絮</a></li><li class="none"><a href='http://cdc.tencent.com/?tag=works' class='tag-link-11' title='36 个话题' style='/*font-size: 14.681818181818pt;*/'>作品</a></li><li class="none"><a href='http://cdc.tencent.com/?tag=%e4%ba%a4%e4%ba%92%e8%ae%be%e8%ae%a1' class='tag-link-147' title='26 个话题' style='/*font-size: 10.227272727273pt;*/'>交互设计</a></li><li class="none"><a href='http://cdc.tencent.com/?tag=originality' class='tag-link-12' title='23 个话题' style='/*font-size: 8.6363636363636pt;*/'>创意</a></li><li class="none"><a href='http://cdc.tencent.com/?tag=case' class='tag-link-96' title='23 个话题' style='/*font-size: 8.6363636363636pt;*/'>案例</a></li><li class="none"><a href='http://cdc.tencent.com/?tag=cdc' class='tag-link-140' title='22 个话题' style='/*font-size: 8pt;*/'>CDC</a></li>	</ul>
+	</div>
+    <!--热门标签 End-->
+
+    <!--友情链接-->
+    <h1><b class="links"></b></h1>
+    <div class="classify">
+	<ul>
+<li class="links_pic"><a href="http://cdc.tencent.com" target="_blank"><img src="http://cdc.tencent.com/wp-content/uploads/cdc_logo.gif" title="腾讯CDC" /></a></li> 
+<li class="links_pic"><a href="http://www.moosee.net" target="_blank"><img src="http://cdc.tencent.com/data/links/moosee_net.jpg" title="摩色网" /></a></li> 
+<li class="links_pic"><a href="http://www.visionunion.com" target="_blank"><img src="http://www.visionunion.com/help/images/vu_logo.gif" title="视觉同盟" /></a></li> 
+<li class="links_pic"><a href="http://www.uxdc.org" target="_blank"><img src="http://www.uxdc.org/logo/uxdc_logo.gif" title="UXDC 2011体验设计峰会" /></a></li> 
+<li class="links_pic"><a href="http://mxd.tencent.com" target="_blank"><img src="http://cdc.tencent.com/wp-content/uploads/2012/10/tencent_mxd_logo.jpg" title="腾讯MXD移动互联网设计中心" /></a></li> 
+<li class="links_pic"><a href="http://ux.etao.com" target="_blank"><img src="http://cdc.tencent.com/wp-content/uploads/2012/11/untitled.bmp" title="一淘UX" /></a></li> 
+<li class="links_pic"><a href="http://ecd.tencent.com" target="_blank">Tencent ecd</a></li> 
+<li class="links_pic"><a href="http://tgideas.qq.com" target="_blank">Tencent TG ideas</a></li> 
+<li class="links_pic"><a href="http://www.alloyteam.com" target="_blank">Tencent AlloyTeam</a></li> 
+<li class="links_pic"><a href="http://gdc.qq.com" target="_blank">QQ游戏设计中心</a></li> 
+<li class="links_pic"><a href="http://impd.tencent.com" target="_blank">QQ客户端团队博客</a></li> 
+<li class="links_pic"><a href="http://www.aliued.cn" target="_blank">阿里巴巴（中文站）UED</a></li> 
+<li class="links_pic"><a href="http://blog.alipay.com" target="_blank">支付宝官方Blog</a></li> 
+<li class="links_pic"><a href="http://ued.taobao.com/blog/" target="_blank">Taobao UED</a></li> 
+<li class="links_pic"><a href="http://www.aliued.com" target="_blank">阿里巴巴国际站UED</a></li> 
+<li class="links_pic"><a href="http://mux.baidu.com" target="_blank">百度MUX</a></li> 
+<li class="links_pic"><a href="http://udc.weibo.com" target="_blank">微博UDC</a></li> 
+<li class="links_pic"><a href="http://ued.sogou.com" target="_blank">搜狗UED</a></li> 
+<li class="links_pic"><a href="http://mued.sohu.com" target="_blank">搜狐MUED</a></li> 
+<li class="links_pic"><a href="http://vc.changyou.com/index.shtml" target="_blank">搜狐畅游VC</a></li> 
+<li class="links_pic"><a href="http://hao.uisdc.com" target="_blank">设计师网址导航</a></li> 
+<li class="links_pic"><a href="http://www.blueidea.com" target="_blank">蓝色理想</a></li> 
+<li class="links_pic"><a href="http://adc-cn.org" target="_blank">中国青少年开发者大会</a></li> 
+<li class="links_pic"><a href="http://www.ucdchina.com" target="_blank">UCD大社区</a></li> 
+<li class="links_pic"><a href="http://www.chinaui.com" target="_blank">优艾网</a></li> 
+<li class="links_pic"><a href="http://www.boxui.com" target="_blank">盒子UI设计</a></li> 
+<li class="links_pic"><a href="http://www.fisherv.com" target="_blank">Icecream冰淇淋</a></li> 
+<li class="links_pic"><a href="http://www.xxchixx.com" target="_blank">视觉共享</a></li> 
+<li class="links_pic"><a href="http://www.uimaker.com" target="_blank">ui制造者</a></li> 
+<li class="links_pic"><a href="http://ixdc.org" target="_blank">IxDC（交互设计专业委员会）</a></li> 
+<li class="links_pic"><a href="http://www.yixieshi.com" target="_blank">互联网的一些事</a></li> 
+<li class="links_pic"><a href="http://iwucha.com" target="_blank">爱午茶</a></li> 
+<li class="links_pic"><a href="http://www.cngadget.cn" target="_blank">玩意儿</a></li> 
+<li class="links_pic"><a href="http://www.sudasuta.com" target="_blank">苏打苏塔</a></li> 
+<li class="links_pic"><a href="http://www.jandou.com" target="_blank">煎豆</a></li> 
+<li class="links_pic"><a href="http://artfans.net" target="_blank">ARTFANS视觉杂志</a></li> 
+<li class="links_pic"><a href="http://aladd.net" target="_blank">aladd设计量贩铺</a></li> 
+<li class="links_pic"><a href="http://www.ycy8.net" target="_blank">有创意吧</a></li> 
+<li class="links_pic"><a href="http://www.mysenz.com" target="_blank">私人视觉展会</a></li> 
+<li class="links_pic"><a href="http://www.31star.com" target="_blank">闪耀之星</a></li> 
+<li class="links_pic"><a href="http://www.cpcool.com" target="_blank">中国设计在线</a></li> 
+<li class="links_pic"><a href="http://www.warting.com" target="_blank">设计帝国</a></li> 
+<li class="links_pic"><a href="http://www.uxrun.com" target="_blank">UX创意杂志</a></li> 
+<li class="links_pic"><a href="http://www.cnvsee.com" target="_blank">视觉色</a></li> 
+<li class="links_pic"><a href="http://www.heylogo.com" target="_blank">标志视界网</a></li> 
+<li class="links_pic"><a href="http://www.shejidaren.com" target="_blank">设计达人</a></li> 
+	</ul>
+	</div>
+    <!--友情链接 End-->
+
+    <!--登录与注册-->
+    <div class="loginBar">
+    <p><a href="http://cdc.tencent.com/?feed=rss2">文章RSS</a>|<a href="http://cdc.tencent.com/?feed=comments-rss2">评论RSS</a></p>
+    </div>
+
+</div>
+<!--Sidebar End-->
+</div>
+<!--Container End-->
+
+
+<!--Footer-->
+<div id="footer">
+<div id="footerbar">
+
+
+	<!--图片滚动区-->
+    <div class="scrollbar">
+    	<a href="javascript:;" class="go_left" onfocus="this.blur()" id="go_left" onclick="goPrevious(this)"></a>
+      <div class="scroll" id="scroll"><ul>
+          <li> <a href="http://cdc.tencent.com/?p=5140" target="_blank"><img src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F01_2F2012_new_year_blog_banner.jpg" data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F01_2F2012_new_year_blog_banner.jpg" /> <span> <b>CDC祝您2012新春快乐！</b> <br />
+            2012.01.20 <br />
+            how/最近折腾</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=4350" target="_blank"><img src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F10_2FBanner2.jpg" data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F10_2FBanner2.jpg" /> <span> <b>创新贴心设计的灵感觅取 </b> <br />
+            2011.10.13 <br />
+            milaky/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=1290" target="_blank"><img src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2009_2F06_2Fbeibei-ii-01.jpg" data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2009_2F06_2Fbeibei-ii-01.jpg" /> <span> <b>贝贝的实录分享II</b> <br />
+            2009.06.26 <br />
+            贝贝/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=4701" target="_blank"><img src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F12_2Fbanner1.jpg" data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F12_2Fbanner1.jpg" /> <span> <b>当ios游戏开发像做份沙拉那么简单</b> <br />
+            2011.12.02 <br />
+            Element/虾饺烧卖</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=4056" target="_blank"><img src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F07_2F0.jpg" data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F07_2F0.jpg" /> <span> <b>设计的设计——原研哉2011中国展 </b> <br />
+            2011.07.29 <br />
+            AKAMI/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=7459" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2013_2F05_2Fblog_banner_leo.jpg" /> <span> <b>设计感悟——产品的三个属性</b> <br />
+            2013.05.30 <br />
+            leo/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5558" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F04_2Fbanner2.jpg" /> <span> <b>CDC读书会月读推荐4月季</b> <br />
+            2012.04.28 <br />
+            雪鸮/虾饺烧卖</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5677" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F06_2Fbannernew.jpg" /> <span> <b>信息图形中的颜色探讨—面向色盲人士友好的设计解决方案</b> <br />
+            2012.06.01 <br />
+            Pearl/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=6769" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2013_2F01_2Fbanner.jpg" /> <span> <b>不要让“合理性”成为阻碍设计前行的绊脚石</b> <br />
+            2013.01.06 <br />
+            百科/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5760" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F06_2Fbanner11.jpg" /> <span> <b>指尖上的设计——UIDesigner 2.5 for mobile发布上线</b> <br />
+            2012.07.12 <br />
+            路飞/技术沙龙</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2306" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F03_2F1003-2010zai-01.jpg" /> <span> <b>2010怎么就宅了——我们是设计星球的阿凡达</b> <br />
+            2010.03.08 <br />
+            姝文/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=522" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2008_2F12_2F001.jpg" /> <span> <b>用户价值VS商业价值</b> <br />
+            2008.12.09 <br />
+            巢皮/最近折腾</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5038" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F01_2Fbanner.jpg" /> <span> <b>浅析图标的微观世界——从符号学说起</b> <br />
+            2012.01.05 <br />
+            Xbells/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2357" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F03_2FGUI_HUNT_AD.jpg" /> <span> <b>视觉设计现场招聘会</b> <br />
+            2010.03.17 <br />
+            how/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5886" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F08_2Fbanner61.jpg" /> <span> <b>CDC读书会月读推荐6月季</b> <br />
+            2012.08.06 <br />
+            雪鸮/最近折腾</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2337" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F03_2Fcontent-adapts-form.jpg" /> <span> <b>内容适应形式</b> <br />
+            2010.03.16 <br />
+            杰西/CDC上海</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2303" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F03_2F201003-wui-hr-benner.jpg" /> <span> <b>资深web视觉设计师招聘</b> <br />
+            2010.03.02 <br />
+            小曼/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=6357" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F11_2FCatchU-banner.jpg" /> <span> <b>一拍即传！2012魔鬼训练营-神奇的CatchU咔丘-项目总结</b> <br />
+            2012.11.06 <br />
+            牛丸儿/魔鬼训练营</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=4467" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F11_2Fbanner1.jpg" /> <span> <b>CDC户外协会阳朔之旅</b> <br />
+            2011.11.07 <br />
+            雯琇/最近折腾</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=6066" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F10_2Fbanner89.jpg" /> <span> <b>CDC读书会月读推荐8、9月季</b> <br />
+            2012.10.08 <br />
+            雪鸮/最近折腾</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=452" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2008_2F12_2F0811_philippines_01.jpg" /> <span> <b>出境游之初体验--菲律宾</b> <br />
+            2008.12.01 <br />
+            小葵/摄影印象</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=4701" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F12_2Fbanner1.jpg" /> <span> <b>当ios游戏开发像做份沙拉那么简单</b> <br />
+            2011.12.02 <br />
+            Element/最近折腾</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2526" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F05_2FBUEbanner.jpg" /> <span> <b>品牌的统一体验</b> <br />
+            2010.05.18 <br />
+            Melody/新人Show</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=3920" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F06_2Fbanner11.jpg" /> <span> <b>Happy birthday~ CDC</b> <br />
+            2011.06.08 <br />
+            HH/摄影印象</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=4086" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F07_2F201107_chengdu_hr_banner.jpg" /> <span> <b>成都2011，腾讯CDC招聘进行时！</b> <br />
+            2011.07.29 <br />
+            冰棍/最近折腾</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5875" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F07_2F0banner.jpg" /> <span> <b>I SEE YOU-- AVATAR TALK设计分享</b> <br />
+            2012.07.31 <br />
+            Amy/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2277" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F02_2F1002-gui-virtual-01.jpg" /> <span> <b>妄想or未来？界面的虚拟现实化</b> <br />
+            2010.02.24 <br />
+            BLIZZARD/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=3340" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F12_2Fabout-sitemap.jpg" /> <span> <b>关于网站地图</b> <br />
+            2010.12.14 <br />
+            jovi/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5082" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F01_2Fbanner1-21.jpg" /> <span> <b>Android 4.0设计规范 优先导读 十大改变 （附全文翻译pdf）</b> <br />
+            2012.01.18 <br />
+            judy/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=1382" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2009_2F07_2F0907_sheji_biaoda_00.jpg" /> <span> <b>设计与表达</b> <br />
+            2009.07.24 <br />
+            小玉/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=3533" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F01_2Fbanner2.jpg" /> <span> <b>从上海博物馆的青铜器说起</b> <br />
+            2011.01.24 <br />
+            GIGO/CDC上海</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2122" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F01_2FBtn_Ryan_01.jpg" /> <span> <b>多按钮共存——don't make me think</b> <br />
+            2010.01.11 <br />
+            死猫/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=3533" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F01_2Fbanner2.jpg" /> <span> <b>从上海博物馆的青铜器说起</b> <br />
+            2011.01.24 <br />
+            GIGO/虾饺烧卖</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2431" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F04_2F1004-single-web-design-17.jpg" /> <span> <b>越简单越丰富——极简网页设计视觉呈现技巧</b> <br />
+            2010.04.16 <br />
+            番茄果果/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=4968" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F12_2Fbanner-12.jpg" /> <span> <b>CDC读书会月读推荐-12月季 </b> <br />
+            2011.12.23 <br />
+            雪鸮/虾饺烧卖</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=6003" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F09_2F17.jpg" /> <span> <b>2012年中国用户体验设计从业者调查活动</b> <br />
+            2012.09.11 <br />
+            风凌/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2400" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F03_2F1003-beibei-sns-design-banner.jpg" /> <span> <b>sns视觉设计分享</b> <br />
+            2010.03.29 <br />
+            贝贝/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=1110" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2009_2F04_2Fchuntianhuahua_01.jpg" /> <span> <b>春天花花同学会</b> <br />
+            2009.04.07 <br />
+            小葵/最近折腾</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=2360" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2010_2F03_2FSurface.jpg" /> <span> <b>让我们走近 Microsoft Surface</b> <br />
+            2010.03.22 <br />
+            史蒂夫/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=6141" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F10_2FCDC_E5_8D_9A_E5_AE_A2_E9_AD_94_E9_AC_BCbanner.jpg" /> <span> <b>【2012魔鬼训练营】活动全接触</b> <br />
+            2012.10.26 <br />
+            Mercy/魔鬼训练营</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5076" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F01_2Fbanner1.jpg" /> <span> <b>一个圆的若干种可能—motion graphic中图形元素的状态表现</b> <br />
+            2012.01.31 <br />
+            大王/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=914" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2009_2F02_2Froad01.jpg" /> <span> <b>ON THE ROAD物语</b> <br />
+            2009.02.25 <br />
+            肚脐/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=4335" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F09_2FCDC-Blog_banner.jpg" /> <span> <b>QQ输入法精简版设计总结</b> <br />
+            2011.09.27 <br />
+            rain in fog/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5742" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F06_2Fbanner3.jpg" /> <span> <b>信息可视化研究范畴及案例</b> <br />
+            2012.06.19 <br />
+            tuff/交互设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5822" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F07_2F0.jpg" /> <span> <b>自然而流畅——聊聊界面的切换动画</b> <br />
+            2012.07.18 <br />
+            benbackman/CDC上海</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=1433" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2009_2F08_2F0908_htb-iphone_01.jpg" /> <span> <b>成功开发iPhone软件的10个步骤</b> <br />
+            2009.08.05 <br />
+            恋恋/CDC上海</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=3885" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2011_2F05_2Fbanner.jpg" /> <span> <b>网络数据的背后——网络日志的分析指标</b> <br />
+            2011.05.26 <br />
+            孙悟控/用户研究</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=5641" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F05_2F20120227.jpg" /> <span> <b>超平面的触觉设计</b> <br />
+            2012.05.29 <br />
+            小E/视觉设计</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=6590" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2012_2F12_2Fbanner1.jpg" /> <span> <b>【CDC翻客 原创译文】为移动而设计，第一部分：信息架构</b> <br />
+            2012.12.07 <br />
+            lost/CDC翻客</span> </a> </li>
+          <li> <a href="http://cdc.tencent.com/?p=1401" target="_blank"><img data-src="http://cdc.tencent.com/data/cache/images/footer_banners/http_3A_2F_2Fcdc.tencent.com_2Fwp-content_2Fuploads_2F2009_2F07_2F0907_facetedsearch_09.jpg" /> <span> <b>分面搜索（Faceted Search）</b> <br />
+            2009.07.30 <br />
+            老董/交互设计</span> </a> </li>
+        </ul>
+      </div>
+    	<a href="javascript:;" class="go_right" onfocus="this.blur()" id="go_right" onclick="goNext(this)"></a>
+    </div>
+	<!--图片滚动区-->
+    <!--Copyright-->
+    <div class="copyright">
+    <p class="about_info">
+    <a href="http://cdc.tencent.com">Home</a> | <a href="http://cdc.tencent.com/?about">About</a> | <a href="http://cdc.tencent.com/?albums">Photo</a> | <a href="http://cdc.tencent.com/sitemap.xml">Sitemap</a> | <a href="http://cdc.tencent.com/?feed=rss2">RSS</a> |</p>
+    <p>
+    Copyright &copy; 1998 - 2013 Tencent. All Rights Reserved. Powered By WordPress.
+    <span>Copyright &copy; 1998 - 2013 Tencent. All Rights Reserved. Powered By WordPress.</span>
+    </p>
+    </div>
+    <!--Copyright End-->   
+    
+</div>
+</div>
+<!--Footer End-->
+<script type="text/javascript">
+var microblog = document.getElementById("microblog");
+if(microblog!=null){cdcAjax('http://cdc.tencent.com/data/ajax/load_t_qq_com.php',load_t_qq_com);}
+function load_t_qq_com(ret){document.getElementById("microblog").innerHTML = ret;}
+</script>
+<script type="text/javascript" src="http://cdc.tencent.com/wp-content/themes/cdcblog2/js/scroll.js"></script>
+<script type="text/javascript" src="http://cdc.tencent.com/wp-content/themes/cdcblog2/js/album.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://cdc.tencent.com/wp-content/themes/cdcblog2/js/png24.js" ></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#top,a#logo,a#logo:hover,#menu li a:hove,#menu li#on a,#menu li#rss,#menu li a.rss,#menu li a.rss:hover,#menu li a.feed,#menu li a.feed:hover');
+</script>
+<![endif]-->
+</body>
+</html>
