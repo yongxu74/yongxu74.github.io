@@ -1,10 +1,10 @@
 ### Site info:
-title: 老徐博客 - 科技创新探索和前沿技术
+title: 数字科技研究所
 tagline: 
 author: James Xu
 email: yongxu74@gmail.com
-description: "老徐博客 - 科技创新探索和前沿技术" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "老徐博客 - 科技创新探索和前沿技术"
+description: "数字科技研究所" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "数字科技研究所"
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://yongz.com" # the base hostname & protocol for your site
 locale: zh_CN
